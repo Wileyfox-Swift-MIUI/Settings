@@ -30,6 +30,8 @@ usesFramework:
   - 16
   - 17
   - 18
+  - 63
+  - 127
 version: 2.2.1-93a51c-SNAPSHOT
 versionInfo:
   versionCode: '23'
