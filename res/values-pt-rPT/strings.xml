@@ -724,12 +724,6 @@ Permitir esta opção para todas as aplicações que pretenderem verificar?"</st
     <string name="wifi_dont_skip">Não ignorar</string>
     <string name="wifi_skipped_message">AVISO: Se ignorar o WLAN, o telemóvel utilizará apenas dados de rede móvel para as transferências e as atualizações iniciais. Para evitar possíveis taxas de dados, estabeleça ligação a uma rede WLAN.</string>
     <string name="wifi_and_mobile_skipped_message">"Se ignorar o WLAN:
-
-O"<li>" seu telemóvel não terá uma ligação à Internet.
-"</li>"
-N"<li>"ão receberá atualizações de software até se ligar à Internet.
-"</li>"
-N"<li>este momento, não pode ativar as funcionalidades de proteção do dispositivo.</string>
     <string name="wifi_connect_failed_message">Não foi possível ligar à rede WLAN</string>
     <string name="wifi_saved_access_points_titlebar">Redes guardadas</string>
     <string name="wifi_advanced_titlebar">Definições avançadas WLAN</string>

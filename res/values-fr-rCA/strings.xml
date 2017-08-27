@@ -1096,10 +1096,6 @@ Veuillez utiliser un ^1 plus rapide pour obtenir de meilleures performances."</s
     <string name="restore_default_apn_completed">La réinitialisation des paramètres APN par défaut est terminée.</string>
     <string name="reset_network_title">Réinitialisation des paramètres réseau</string>
     <string name="reset_network_desc">"Cette action permet de réinitialiser tous les paramètres réseau, y compris : 
-
-"<li>"WLAN
-"</li>D<li>"onnées cellulaires
-"</li>B<li>luetooth</string>
     <string name="reset_network_button_text">Réinitialiser les paramètres</string>
     <string name="reset_network_final_desc">Réinitialiser tous les paramètres réseau? Cette action est irréversible.</string>
     <string name="reset_network_final_button_text">Réinitialiser les paramètres</string>

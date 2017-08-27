@@ -1169,10 +1169,6 @@ Yuqori unumdorlikka erishish uchun tezkor qurilmadan (^1) foydalaning."</string>
     <string name="restore_default_apn_completed">Birlamchi sozlamalar tiklandi.</string>
     <string name="reset_network_title">Tarmoq sozlamalarini tiklash</string>
     <string name="reset_network_desc">"\"Qurilmadagi barcha tarmoq sozlamalari qayta tiklanadi, jumladan: 
-
-\""<li>"WLAN
-"</li>M<li>"obil internet
-"</li>B<li>luetooth</string>
     <string name="reset_network_button_text">Sozlamalarni tiklash</string>
     <string name="reset_network_final_desc">"Barcha tarmoq sozlamalari qayta tiklansinmi? Bu amalni ortga qaytarib bo'lmaydi!"</string>
     <string name="reset_network_final_button_text">Sozlamalarni tiklash</string>

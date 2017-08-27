@@ -743,12 +743,6 @@
     <string name="wifi_dont_skip">Не пропускати</string>
     <string name="wifi_skipped_message">ЗАСТЕРЕЖЕННЯ. Якщо вимкнути Wi‑Fi, телефон використовуватиме лише мобільну мережу для початкових завантажень і оновлень. Щоб уникнути можливого стягнення плати, під’єднайтеся до Wi‑Fi.</string>
     <string name="wifi_and_mobile_skipped_message">"Якщо не налаштувати WLAN:
-
-в"<li>"аш телефон не зможе під’єднатися до Інтернету;
-"</li>"
-в"<li>"и не отримуватимете оновлення програмного забезпечення, доки телефон не під’єднається до Інтернету;
-"</li>"
-в"<li>и не зможете активувати функції захисту пристрою.</string>
     <string name="wifi_connect_failed_message">Не вдалося підключитися до мережі WLAN</string>
     <string name="wifi_saved_access_points_titlebar">Збережені мережі</string>
     <string name="wifi_advanced_titlebar">Додатково</string>

@@ -743,12 +743,6 @@
     <string name="wifi_dont_skip">नछोड्नुहोस्</string>
     <string name="wifi_skipped_message">चेतावनी: यदि तपाईँले वाइफाइ छोड्नु हुन्छ भने, तपाईँको फोनले प्रारम्भिक डाउनलोड र अद्यावधिकहरूको लागि सेलुलर डेटा मात्र प्रयोग गर्नेछ। सम्भावित डेटा शुल्क हटाउन, वाइफाइ जडान गर्नुहोस्।</string>
     <string name="wifi_and_mobile_skipped_message">"यदि तपाईँले WLAN लाई छोड्नु भयो भने:
-
-त"<li>"पाईँको फोनमा इन्टरनेट जडान हुने छैन।
-"</li>"
-इ"<li>"न्टरनेट नभए सम्म तपाईँले सफ्टवेयर अद्यावधिकहरु प्राप्त गर्नुहुन्न।
-"</li>"
-य"<li>स समयमा यन्त्र सुरक्षा विशेषताहरु सक्रिय पार्न सक्नुहुन्‍न।</string>
     <string name="wifi_connect_failed_message">वाई-फाई नेटवर्कमा जडान गर्न सकिएन</string>
     <string name="wifi_saved_access_points_titlebar">सुरक्षित सञ्जालहरू</string>
     <string name="wifi_advanced_titlebar">उन्नत वाई-फाई</string>

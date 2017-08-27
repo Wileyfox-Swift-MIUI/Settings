@@ -748,12 +748,6 @@
     <string name="wifi_dont_skip">ಸ್ಕಿಪ್‌ ಮಾಡಬೇಡ</string>
     <string name="wifi_skipped_message">ಎಚ್ಚರಿಕೆ: ನೀವು WLAN ಸ್ಕಿಪ್ ಮಾಡಿದರೆ, ಆರಂಭಿಕ ಡೌನ್‌ಲೋಡ್‌ಗಳು ಮತ್ತು ನವೀಕರಣಗಳಿಗಾಗಿ ನಿಮ್ಮ ಫೋನ್ ಸೆಲ್ಯುಲಾರ್ ಡೇಟಾವನ್ನು ಮಾತ್ರ ಬಳಸುತ್ತದೆ. ಸಂಭಾವ್ಯ ಡೇಟಾ ಶುಲ್ಕಗಳನ್ನು ನಿಯಂತ್ರಿಸಲು, WLAN ಗೆ ಸಂಪರ್ಕಪಡಿಸಿ.</string>
     <string name="wifi_and_mobile_skipped_message">"\"ನೀವು WLAN ಸ್ಕಿಪ್‌ ಮಾಡಿದರೆ:
-
-\"ನ"<li>"ಿಮ್ಮ ಫೋನ್‌ಗೆ ಇಂಟರ್ನೆಟ್ ಸಂಪರ್ಕ ಇರುವುದಿಲ್ಲ.
-"</li>"
-ಇ"<li>"ಂಟರ್ನೆಟ್‌ಗೆ ಸಂಪರ್ಕಗೊಳ್ಳುವವರೆಗೂ ನೀವು ಸಾಫ್ಟ್‌ವೇರ್ ಅಪ್‌ಡೇಟ್‌ಗಳನ್ನು ಸ್ವೀಕರಿಸುವುದಿಲ್ಲ.
-"</li>"
-ಈ"<li> ಸಮಯದಲ್ಲಿ ನಿಮಗೆ ಸಾಧನ ರಕ್ಷಣೆ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ.</string>
     <string name="wifi_connect_failed_message">ಈ Wi‑Fi ನೆಟ್‌ವರ್ಕ್‌ಗೆ ಫೋನ್‌ಗೆ ಸಂಪರ್ಕಪಡಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.</string>
     <string name="wifi_saved_access_points_titlebar">ಉಳಿಸಿದ ನೆಟ್‌ವರ್ಕ್‌</string>
     <string name="wifi_advanced_titlebar">ಸುಧಾರಿತ Wi‑Fi</string>

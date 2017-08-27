@@ -679,12 +679,6 @@ Vil du tillate dette for alle apper som prøver å skanne?"</string>
     <string name="wifi_dont_skip">Ikke hopp over</string>
     <string name="wifi_skipped_message">ADVARSEL: Hvis du hopper over WLAN, bruker telefonen din bare mobildata for automatiske nedlastinger og oppdateringer. For å unngå mulige datakostnader bør du koble til WLAN.</string>
     <string name="wifi_and_mobile_skipped_message">"Hvis du hopper over WLAN:
-
-T"<li>"elefonen din får ingen Internett-tilkobling.
-"</li>"
-D"<li>"u får ikke oppdateringer før du kobler til Internett.
-"</li>"
-D"<li>u kan ikke aktivere funksjoner for enhetsbeskyttelse nå.</string>
     <string name="wifi_connect_failed_message">Telefonen kunne ikke koble til WLAN-nettverket.</string>
     <string name="wifi_saved_access_points_titlebar">Lagrede nettverk</string>
     <string name="wifi_advanced_titlebar">Avanserte WLAN-innst.</string>

@@ -1096,10 +1096,6 @@ Du kan også skifte til et hurtigere ^1 for at få en bedre ydeevne."</string>
     <string name="restore_default_apn_completed">Standardindstillingerne for adgangspunktet er nulstillet.</string>
     <string name="reset_network_title">Nulstil netværksindstillinger</string>
     <string name="reset_network_desc">"Denne handling nulstiller alle netværksindstillinger, herunder: 
-
-"<li>"WLAN
-"</li>M<li>"obildata
-"</li>B<li>luetooth</string>
     <string name="reset_network_button_text">Nulstil indstillinger</string>
     <string name="reset_network_final_desc">Vil du nulstille alle netværksindstillingerne? Du kan ikke fortryde denne handling.</string>
     <string name="reset_network_final_button_text">Nulstil indstillinger</string>

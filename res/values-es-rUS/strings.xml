@@ -743,12 +743,6 @@ Para continuar usando el teléfono, debes restablecer la configuración de fábr
     <string name="wifi_dont_skip">No omitir</string>
     <string name="wifi_skipped_message">ADVERTENCIA: Si omites la conexión Wi‑Fi, el teléfono solo usará datos móviles para acceder a descargas y actualizaciones iniciales. Si quieres evitar posibles cargos por uso de datos, conéctate a una red WLAN.</string>
     <string name="wifi_and_mobile_skipped_message">"Si omites la conexión WLAN:
-
-E"<li>"l teléfono no tendrá conexión a Internet.
-"</li>"
-N"<li>"o recibirás actualizaciones de software hasta que te conectes a Internet.
-"</li>"
-M"<li>ientras tanto, no podrás activar las funciones de protección del dispositivo.</string>
     <string name="wifi_connect_failed_message">No fue posible conectarse a la red WLAN</string>
     <string name="wifi_saved_access_points_titlebar">Redes guardadas</string>
     <string name="wifi_advanced_titlebar">Ajustes avanzados WLAN</string>

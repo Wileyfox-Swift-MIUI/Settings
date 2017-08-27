@@ -1094,10 +1094,6 @@ Zingatia kutumia ^1 yenye kasi zaidi kwa ajili ya utendaji bora."</string>
     <string name="restore_default_apn_completed">Kuweka upya kwa mipangilio mbadala ya APN kumekamilika</string>
     <string name="reset_network_title">Mipangilio ya mtandao imewekwa upya</string>
     <string name="reset_network_desc">"Hatua hii itaweka upya mipangilio yote ya mtandao, ikiwemo: 
-
-"<li>"WLAN
-"</li>D<li>"ata ya simu za mkononi
-"</li>B<li>luetooth</string>
     <string name="reset_network_button_text">Weka upya mipangilio</string>
     <string name="reset_network_final_desc">Ungependa kuweka upya mipangilio yote ya mtandao? Huwezi kutendua kitendo hiki.</string>
     <string name="reset_network_final_button_text">Weka upya mipangilio</string>

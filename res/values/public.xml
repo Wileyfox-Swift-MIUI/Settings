@@ -6567,9 +6567,6 @@
     <public type="string" name="nfc_payment_learn_more" id="0x7f0a12ee" />
     <public type="string" name="nfc_payment_menu_item_add_service" id="0x7f0a12ef" />
     <public type="string" name="app_not_supported_in_limited" id="0x7f0a12f0" />
-    <public type="string" name="status_bar_settings_notification_sound_vibrate" id="0x7f0a1269" />
-    <public type="string" name="add_fingerprint_instruction_dialog_msg" id="0x7f0a129b" />
-    <public type="string" name="music_hifi_volume" id="0x7f0a12f2" />
     <public type="string" name="zen_mode_from" id="0x7f0a1324" />
     <public type="string" name="usb_sdcard_title" id="0x7f0a1325" />
     <public type="string" name="usb_sdcard_summary" id="0x7f0a1326" />

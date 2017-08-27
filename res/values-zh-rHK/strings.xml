@@ -679,12 +679,6 @@
     <string name="wifi_dont_skip">不要略過</string>
     <string name="wifi_skipped_message">警告：如果略過 WLAN 設定，手機將只能透過流動數據連線，以作初始下載及更新。如要避免產生數據傳輸費用，請連線至 WLAN 網絡。</string>
     <string name="wifi_and_mobile_skipped_message">"如果略過 WLAN 設定：
-
-您"<li>"的手機將無法連線至互聯網。
-"</li>"
-您"<li>"必須連線至互聯網，才能取得軟件更新。
-"</li>"
-目"<li>前無法啟用裝置保護功能。</string>
     <string name="wifi_connect_failed_message">手機無法連接這個 WLAN 網絡。</string>
     <string name="wifi_saved_access_points_titlebar">已儲存的網絡</string>
     <string name="wifi_advanced_titlebar">進階 WLAN</string>

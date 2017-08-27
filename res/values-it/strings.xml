@@ -743,12 +743,6 @@ Consetirlo a tutte le app che vogliono eseguire la ricerca?"</string>
     <string name="wifi_dont_skip">Non saltare</string>
     <string name="wifi_skipped_message">AVVISO. Se non attivi il Wi‑Fi, il telefono utilizzerà solo la rete dati per gli aggiornamenti e i download iniziali. Per evitare possibili costi per i dati, connettiti al Wi‑Fi.</string>
     <string name="wifi_and_mobile_skipped_message">"In caso di non attivazione del WLAN:
-
-I"<li>"l telefono non avrà una connessione Internet.
-"</li>"
-N"<li>"on riceverai aggiornamenti software finché non viene stabilita una connessione.
-"</li>"
-A"<li>l momento, non puoi attivare le funzioni di protezione del dispositivo.</string>
     <string name="wifi_connect_failed_message">Impossibile connetersi alla rete WLAN</string>
     <string name="wifi_saved_access_points_titlebar">Reti salvate</string>
     <string name="wifi_advanced_titlebar">Impostazioni avanzate WLAN</string>

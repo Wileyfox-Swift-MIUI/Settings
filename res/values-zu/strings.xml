@@ -679,12 +679,6 @@ Vumela lokhu ngazo zonke izinhlelo zokusebenza ezifuna ukuskena?"</string>
     <string name="wifi_dont_skip">Ungeqi</string>
     <string name="wifi_skipped_message">ISEXWAYISO: Uma weqa i-Wi‑Fi, ifoni yakho ngeke ibe noxhumo lwe-inthanethi olungasetshenziselwa noma yikuphi ukulanda kokuqala noma izibuyekezo. Ukuze ugweme izindleko zedatha ezingenzeka, xhuma ku-WLAN.</string>
     <string name="wifi_and_mobile_skipped_message">"Uma weqa i-WLAN:
-
-I"<li>"foni yakho ngeke ibe nokuxhumeka kwe-inthanethi.
-"</li>"
-N"<li>"geke uze uthole izibuyekezo zesofthiwe uze uxhumeke ku-inthanethi.
-"</li>"
-A"<li>wukwazi ukwenza kusebenze izici zokuvikela idivayisi ngalesi sikhathi.</string>
     <string name="wifi_connect_failed_message">Ifoni ayikwazanga ukuxhuma kule nethiwekhi ye-WLAN.</string>
     <string name="wifi_saved_access_points_titlebar">Amanethiwekhi alondoloziwe</string>
     <string name="wifi_advanced_titlebar">Ukuxhumana kungenazintambo okuphambili</string>

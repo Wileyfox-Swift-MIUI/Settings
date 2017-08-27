@@ -679,12 +679,6 @@
     <string name="wifi_dont_skip">Не прескачи</string>
     <string name="wifi_skipped_message">УПОЗОРЕЊЕ: Ако прескочите Wi‑Fi, телефон ће користити само податке за мобилне уређаје при почетним ажурирањима и преузимањима. Да бисте избегли евентуалне трошкове за пренос података, повежите се са Wi‑Fi-јем.</string>
     <string name="wifi_and_mobile_skipped_message">"Ако прескочите WLAN:
-
-Т"<li>"елефон неће имати интернет везу.
-"</li>"
-Н"<li>"ећете добити ажурирања софтвера док се не повежете на интернет.
-"</li>"
-Т"<li>ренутно не можете да активирате функције заштите уређаја.</string>
     <string name="wifi_connect_failed_message">Телефон није могао да се повеже са овом WLAN мрежом.</string>
     <string name="wifi_saved_access_points_titlebar">Сачуване мреже</string>
     <string name="wifi_advanced_titlebar">Напредна WLAN подешавања</string>
