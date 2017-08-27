@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="radioInfo_menu_viewADN">Visa UIM adressbok</string>
+    <string name="security_settings_summary">Ställ in min plats, skärmupplåsning, UIM kortlås, uppgiftslagringslås</string>
+    <string name="sim_lock_settings">UIM kortlås inställningar</string>
+    <string name="sim_lock_settings_category">Ställ in UIM kortlås</string>
+    <string name="sim_lock_settings_title">UIM kortlås</string>
+    <string name="sim_pin_toggle">Lås UIM kort</string>
+    <string name="sim_pin_change">Ändra UIM PIN</string>
+    <string name="sim_enter_pin">UIM PIN</string>
+    <string name="sim_enable_sim_lock">Lås UIM kort</string>
+    <string name="sim_disable_sim_lock">Lås upp UIM kort</string>
+    <string name="sim_enter_old">Gammal UIM PIN</string>
+    <string name="sim_enter_new">Ny UIM PIN</string>
+    <string name="sim_change_pin">UIM PIN</string>
+    <string name="sim_change_succeeded">UIM PIN ändrats framgångsrikt</string>
+    <string name="sim_lock_failed">"Kan inte ändra UIM kortlås tillstånd.
+Möjligen felaktig PIN-kod."</string>
+    <string name="sim_change_failed_enable_sim_lock">"Det går inte att ändra UIM PIN.
+Aktivera UIM LOCK."</string>
+    <string name="sim_lock_change_not_supported">"Det går inte att ändra UIM Lock.
+UIM stöder inte det."</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="radioInfo_menu_viewADN">"UIM kartadagi mazillar kitobini ko'rsatish"</string>
+    <string name="security_settings_summary">"\"Joylashuv\" funksiyasi, ekran qulfi, UIM karta qulfi, va hisobga olish ma'lumotlar qulfini sozlash"</string>
+    <string name="sim_lock_settings">UIM karta qulflash sozlamalari</string>
+    <string name="sim_lock_settings_category">UIM karta qulfi</string>
+    <string name="sim_lock_settings_title">UIM karta</string>
+    <string name="sim_pin_toggle">UIM kartani qulflash</string>
+    <string name="sim_pin_change">"UIM PIN kodni o'zgartirish"</string>
+    <string name="sim_enter_pin">UIM karta PIN kodi</string>
+    <string name="sim_enable_sim_lock">UIM kartani qulflash</string>
+    <string name="sim_disable_sim_lock">UIM kartani qulfdan ochish</string>
+    <string name="sim_enter_old">Eski UIM karta PIN kodi</string>
+    <string name="sim_enter_new">Yangi UIM karta PIN kodi</string>
+    <string name="sim_change_pin">UIM karta PIN kodi</string>
+    <string name="sim_change_succeeded">"UIM karta PIN kodi muvaffaqiyatli o'zgartirildi"</string>
+    <string name="sim_lock_failed">"UIM qulflangan holzatini o'zgartirib bo'lmadi.
+Ehtimol, xato PIN kod."</string>
+    <string name="sim_change_failed_enable_sim_lock">"UIM PIN kodni o'zgartirib bo'lmadi.
+ UIM karta qulfini yoqing."</string>
+    <string name="sim_lock_change_not_supported">"UIM karta qulfini o'zgartirib bo'lmaydi."</string>
+</resources>

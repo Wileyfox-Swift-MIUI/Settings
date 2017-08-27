@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="radioInfo_menu_viewADN">Prikaži USIM imenik</string>
+    <string name="security_settings_summary">Nastavi Mojo lokacijo, odklep zaslona, zaklep USIM kartice, zaklep shrambe poverilnic</string>
+    <string name="sim_lock_settings">Nastavitve zakl. USIM kartice</string>
+    <string name="sim_lock_settings_category">Nastavite zaklep USIM kartice</string>
+    <string name="sim_lock_settings_title">Zaklep USIM kartice</string>
+    <string name="sim_pin_toggle">Zakleni USIM kartico</string>
+    <string name="sim_pin_change">Zamenjaj PIN za USIM</string>
+    <string name="sim_enter_pin">USIM PIN</string>
+    <string name="sim_enable_sim_lock">Zakleni USIM kartico</string>
+    <string name="sim_disable_sim_lock">Odkleni USIM kartico</string>
+    <string name="sim_enter_old">Stari USIM PIN</string>
+    <string name="sim_enter_new">Novi USIM PIN</string>
+    <string name="sim_change_pin">USIM PIN</string>
+    <string name="sim_change_succeeded">USIM PIN uspešno zamenjan</string>
+    <string name="sim_lock_failed">"Ne morem spremeniti stanje zaklepa USIM kartice.
+Morda je PIN napačen."</string>
+    <string name="sim_change_failed_enable_sim_lock">"Ne morem spremeniti USIM PIN.
+Dovoli USIM LOCK."</string>
+    <string name="sim_lock_change_not_supported">"Ne morem spremeniti USIM Lock.
+USIM tega ne podpira."</string>
+</resources>

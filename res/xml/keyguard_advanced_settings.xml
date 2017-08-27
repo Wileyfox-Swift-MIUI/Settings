@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:title="@string/lock_screen_signature_title" android:key="lock_screen_signature" android:summary="@string/lock_screen_signature_summary" />
+    <PreferenceScreen android:persistent="false" android:title="@string/bluetooth_unlock_title" android:key="bluetooth_unlock" />
+    <PreferenceScreen android:persistent="false" android:title="@string/smartcover_lock_or_unlock_screen_tittle" android:key="smartcover_sensitive_small_win_sensor" android:summary="@string/smartcover_sensitive_summary" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/smartcover_lock_or_unlock_screen_tittle" android:key="smartcover_lock_or_unlock_screen" android:summary="@string/smartcover_sensitive_summary" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/screen_on_proximity_sensor_title" android:key="screen_on_proximity_sensor" android:summary="@string/screen_on_proximity_sensor_summary" />
+</PreferenceScreen>

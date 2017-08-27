@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="radioInfo_menu_viewADN">Prikaži SIM imenik</string>
+    <string name="security_settings_summary">Postavi Moju lokaciju, otključavanje zaslona, zaključavanje SIM kartice, zaključavanje spremnika za vjerodajnice</string>
+    <string name="sim_lock_settings">Postavke zaklj. SIM kartice</string>
+    <string name="sim_lock_settings_category">Postavite zaključavanje SIM kartice</string>
+    <string name="sim_lock_settings_title">Zaključavanje SIM kartice</string>
+    <string name="sim_pin_toggle">Zaključaj SIM karticu</string>
+    <string name="sim_pin_change">Promijeni PIN za SIM</string>
+    <string name="sim_enter_pin">SIM PIN</string>
+    <string name="sim_enable_sim_lock">Zaključaj SIM karticu</string>
+    <string name="sim_disable_sim_lock">Otključaj SIM karticu</string>
+    <string name="sim_enter_old">Stari SIM PIN</string>
+    <string name="sim_enter_new">Novi SIM PIN</string>
+    <string name="sim_change_pin">SIM PIN</string>
+    <string name="sim_change_succeeded">Uspješno je promijenjen PIN SIM-a</string>
+    <string name="sim_lock_failed">Nije moguće promijeniti stanje zaključanosti SIM kartice. Možda je PIN netočan.</string>
+    <string name="sim_change_failed_enable_sim_lock">Uključi sada zaključavanje SIM kartice</string>
+    <string name="sim_lock_change_not_supported">Ne mogu promijeniti SIM zaključavanje.</string>
+</resources>

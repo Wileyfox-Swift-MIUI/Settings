@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="radioInfo_menu_viewADN">USIM ایڈریس بک دیکھیں</string>
+    <string name="security_settings_summary">میرا مقام، اسکرین انلاک، USIM کارڈ لاک، کریدنتیل اسٹوریج لاک سیٹ کریں</string>
+    <string name="sim_lock_settings">USIM کارڈ لاک ترتیبات</string>
+    <string name="sim_lock_settings_category">USIM کارڈ لاک سیٹ اپ کریں</string>
+    <string name="sim_lock_settings_title">USIM کارڈ لاک</string>
+    <string name="sim_pin_toggle">USIM کارڈ لاک کریں</string>
+    <string name="sim_pin_change">SIM PIN تبدیل کریں</string>
+    <string name="sim_enter_pin">USIM PIN</string>
+    <string name="sim_enable_sim_lock">USIM کارڈ لاک کریں</string>
+    <string name="sim_disable_sim_lock">USIM کارڈ انلاک کریں</string>
+    <string name="sim_enter_old">پرانا USIM PIN</string>
+    <string name="sim_enter_new">نیا USIM PIN</string>
+    <string name="sim_change_pin">USIM PIN</string>
+    <string name="sim_change_succeeded">USIM PIN کامیابی کے ساتھ تبدیل کیا گیا</string>
+    <string name="sim_lock_failed">"USIM کارڈ لاک کی حالت تبدیل نہیں کی جا سکتی۔
+غالباً غلط PIN۔"</string>
+    <string name="sim_change_failed_enable_sim_lock">"USIM PIN یبدیل ہونے سے قاصر۔
+ USIM LOCK فعال کریں۔"</string>
+    <string name="sim_lock_change_not_supported">"USIM لاک تبدیل کرنے سے قاصر۔
+ USIM اسے سپورٹ نہیں کرتا ہے۔"</string>
+</resources>

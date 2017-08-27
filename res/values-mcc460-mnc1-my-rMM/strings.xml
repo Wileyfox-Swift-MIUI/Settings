@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="radioInfo_menu_viewADN">USIM လိပ်စာစာအုပ်ကို ကြည့်ပါ</string>
+    <string name="security_settings_summary">ကျွန်ုပ်၏တည်နေရာ၊ မျက်နှာပြင်သော့ဖွင့်ခြင်း၊ USIM ကတ် သော့ခတ်ခြင်း၊ မည်သူဖြစ်ကြေင်း အထောက်အထားပြ သိုလှောင်ခန်း သော့ခတ်ခြင်းတို့ကို သတ်မှတ်ပါ</string>
+    <string name="sim_lock_settings">USIM ကတ် သော့ခတ်ဆက်တင်များ</string>
+    <string name="sim_lock_settings_category">USIM ကတ် သော့ခတ်ခြင်းကို သတ်မှတ်ပါ</string>
+    <string name="sim_lock_settings_title">USIM ကတ် သော့ခတ်ခြင်း</string>
+    <string name="sim_pin_toggle">USIM ကို သော့ခတ်ပါ</string>
+    <string name="sim_pin_change">USIM PIN ပြောင်းပါ</string>
+    <string name="sim_enter_pin">USIM PIN</string>
+    <string name="sim_enable_sim_lock">USIM ကတ် သော့ခတ်ပါ</string>
+    <string name="sim_disable_sim_lock">USIM ကတ် သော့ဖွင့်ပါ</string>
+    <string name="sim_enter_old">USIM PIN အဟောင်း</string>
+    <string name="sim_enter_new">USIM PIN အသစ်</string>
+    <string name="sim_change_pin">USIM PIN</string>
+    <string name="sim_change_succeeded">USIM PIN ကို အောင်မြင်စွာ ပြောင်းလဲပြီးပြီ</string>
+    <string name="sim_lock_failed">"Can't change USIM ကတ် သော့ခတ်ခြင်း အခြေအနေကို ပြောင်းလို့မရပါ။
+PIN မှားနိုင်သည်။"</string>
+    <string name="sim_change_failed_enable_sim_lock">"Change USIM PIN ကို ပိတ်ပါ။
+ USIM LOCK ကို ဖွင့်ပါ။"</string>
+    <string name="sim_lock_change_not_supported">"Change USIM Lock ကို မစွမ်းဆောင်နိုင်ပါ။
+ USIM က ၎င်းကို ပံ့ပိုးမှုမပေးပါ။"</string>
+</resources>

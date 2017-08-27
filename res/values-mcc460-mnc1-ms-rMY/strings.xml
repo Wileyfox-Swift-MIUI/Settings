@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="radioInfo_menu_viewADN">Papar buku alamat USIM</string>
+    <string name="security_settings_summary">Tetapkan lokasi saya, buka skrin, kunci kad USIM, kunci simpanan</string>
+    <string name="sim_lock_settings">Tetapan kunci kad USIM</string>
+    <string name="sim_lock_settings_category">Tetapkan kunci kad USIM</string>
+    <string name="sim_lock_settings_title">Kunci kad USIM</string>
+    <string name="sim_pin_toggle">Kuncikan kad USIM</string>
+    <string name="sim_pin_change">Tukar PIN USIM</string>
+    <string name="sim_enter_pin">PIN USIM</string>
+    <string name="sim_enable_sim_lock">Kunci kad USIM</string>
+    <string name="sim_disable_sim_lock">Buka kunci kad USIM</string>
+    <string name="sim_enter_old">PIN lama USIM</string>
+    <string name="sim_enter_new">PIN baru USIM</string>
+    <string name="sim_change_pin">PIN USIM</string>
+    <string name="sim_change_succeeded">PIN SIM berjaya ditukarkan</string>
+    <string name="sim_lock_failed">"Tidak boleh menukar USIM kad kunci Negeri. 
+Kemungkinan PIN yang tidak betul."</string>
+    <string name="sim_change_failed_enable_sim_lock">"Tidak dapat menukar PIN USIM. 
+Dayakan KUNCI USIM."</string>
+    <string name="sim_lock_change_not_supported">"Tidak dapat menukar USIM kunci. 
+ USIM tidak menyokongnya."</string>
+</resources>

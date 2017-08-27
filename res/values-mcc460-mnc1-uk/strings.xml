@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="radioInfo_menu_viewADN">Переглядати адресну книгу на USIM-картці</string>
+    <string name="security_settings_summary">Налаштування функції \"Місцезнаходження\", розблокування екрану та блокування сховища реєстраційних даних</string>
+    <string name="sim_lock_settings">Блокування USIM-картки</string>
+    <string name="sim_lock_settings_category">Встановити блокування USIM-картки</string>
+    <string name="sim_lock_settings_title">Блокування USIM-картки</string>
+    <string name="sim_pin_toggle">Запитувати PIN-код</string>
+    <string name="sim_pin_change">Зміна PIN-коду USIM-картки</string>
+    <string name="sim_enter_pin">PIN-код USIM-картки</string>
+    <string name="sim_enable_sim_lock">Заблокувати USIM-картку</string>
+    <string name="sim_disable_sim_lock">Розблоковувати USIM-картку</string>
+    <string name="sim_enter_old">Поточний PIN-код USIM-картки</string>
+    <string name="sim_enter_new">Новий PIN-код USIM-картки</string>
+    <string name="sim_change_pin">PIN-код USIM-картки</string>
+    <string name="sim_change_succeeded">PIN-код USIM-картки успішно змінений</string>
+    <string name="sim_lock_failed">"Не вдалося змінити стан блокування USIM-картки.
+Можливо, введено неправильний PIN-код."</string>
+    <string name="sim_change_failed_enable_sim_lock">"Не вдалося змінити PIN-код.
+Увімкніть блокування USIM-картки."</string>
+    <string name="sim_lock_change_not_supported">"Неможливо змінити блокування USIM-картки.
+ USIM не підтримує блокування."</string>
+</resources>

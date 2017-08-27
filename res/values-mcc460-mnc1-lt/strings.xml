@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="radioInfo_menu_viewADN">Peržiūrėti USIM adresų knygelę</string>
+    <string name="security_settings_summary">Mano vietos nustatymas, ekrano atrakinimas, USIM užrakinimas, identifikatorių saugyklos užrakinimas</string>
+    <string name="sim_lock_settings">USIM kortelės užrakinimo nustatymai</string>
+    <string name="sim_lock_settings_category">Nustatyti USIM kortelės užraktą</string>
+    <string name="sim_lock_settings_title">Užrakinti USIM kortelę</string>
+    <string name="sim_pin_toggle">Užrakinti USIM kortelę</string>
+    <string name="sim_pin_change">Pakeisti USIM kortelės PIN</string>
+    <string name="sim_enter_pin">USIM PIN</string>
+    <string name="sim_enable_sim_lock">Užrakinti USIM kortelę</string>
+    <string name="sim_disable_sim_lock">Atrakinti USIM kortelę</string>
+    <string name="sim_enter_old">Senas USIM PIN</string>
+    <string name="sim_enter_new">Naujas USIM PIN</string>
+    <string name="sim_change_pin">USIM PIN</string>
+    <string name="sim_change_succeeded">Sėkmingai pakeistas USIM PIN</string>
+    <string name="sim_lock_failed">"Nepavyksta pakeisti USIM kortelės užrakinimo.
+Galimai neteisingas PIN."</string>
+    <string name="sim_change_failed_enable_sim_lock">"Nepavyksta pakeisti USIM PIN.
+Įjunkite USIM Užrakinimą."</string>
+    <string name="sim_lock_change_not_supported">"Nepavyksta pakeisti USIM PIN Užrakto.
+USIM to nepalaiko."</string>
+</resources>

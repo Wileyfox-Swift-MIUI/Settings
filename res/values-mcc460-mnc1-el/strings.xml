@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="radioInfo_menu_viewADN">Προβολή Επαφών USIM</string>
+    <string name="security_settings_summary">Ορισμός της Τοποθεσίας μου, ξεκλείδωμα οθόνης, κλείδωμα κάρτας USIM, κλείδωμα αποθηκευτικού χώρου διαπιστευτήριων μου</string>
+    <string name="sim_lock_settings">Ρυθμίσεις κλειδώματος κάρτας USIM</string>
+    <string name="sim_lock_settings_category">Ορισμός κλειδώματος κάρτας USIM</string>
+    <string name="sim_lock_settings_title">Κλείδωμα κάρτας USIM</string>
+    <string name="sim_pin_toggle">Κλείδωμα κάρτας USIM</string>
+    <string name="sim_pin_change">Αλλαγή PIN της USIM</string>
+    <string name="sim_enter_pin">USIM PIN</string>
+    <string name="sim_enable_sim_lock">Κλείδωμα κάρτας USIM</string>
+    <string name="sim_disable_sim_lock">Ξεκλείδωμα κάρτας USIM</string>
+    <string name="sim_enter_old">Παλιό PIN USIM</string>
+    <string name="sim_enter_new">Νέο PIN USIM</string>
+    <string name="sim_change_pin">USIM PIN</string>
+    <string name="sim_change_succeeded">Επιτυχής αλλαγή PIN USIM</string>
+    <string name="sim_lock_failed">"Αδυναμία αλλαγής κατάστασης κλειδώματος κάρτας USIM.
+Πιθανόν εσφαλμένο PIN."</string>
+    <string name="sim_change_failed_enable_sim_lock">"Αδυναμία αλλαγής PIN USIM.
+ Ενεργοποίηση Κλειδώματος USIM."</string>
+    <string name="sim_lock_change_not_supported">"Αδυναμία αλλαγής Κλειδώματος USIM.
+ Η USIM δεν το υποστηρίζει."</string>
+</resources>

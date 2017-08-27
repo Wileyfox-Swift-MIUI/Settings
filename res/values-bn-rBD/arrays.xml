@@ -1,0 +1,944 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="status_bar_style_entries">
+        <item>সমন্বিত</item>
+        <item>আলাদা</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>স্ক্যান করা হচ্ছে…</item>
+        <item>সংযুক্ত হচ্ছে...</item>
+        <item>প্রমাণীকরণ হচ্ছে...</item>
+        <item>IP ঠিকানা প্রাপ্ত করা হচ্ছে...</item>
+        <item>সংযুক্ত হয়েছে</item>
+        <item>স্থগিত করা হয়েছে</item>
+        <item>সংযোগ বিচ্ছিন্ন হচ্ছে...</item>
+        <item>সংযোগ বিচ্ছিন্ন করা হয়েছে</item>
+        <item>অসফল</item>
+        <item>ব্লক করা</item>
+        <item>সাময়িকরূপে দুর্বল সংযোগ এড়ানো হচ্ছে</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>স্ক্যান করা হচ্ছে…</item>
+        <item>%1$s এর সাথে সংযুক্ত হচ্ছে…</item>
+        <item>%1$s দিয়ে প্রমাণীকরণ করা হচ্ছে...</item>
+        <item>%1$s থেকে IP ঠিকানা জানা হচ্ছে…</item>
+        <item>%1$s তে সংযুক্ত হয়েছে</item>
+        <item>স্থগিত করা হয়েছে</item>
+        <item>%1$s থেকে সংযোগ বিচ্ছিন্ন হচ্ছে…</item>
+        <item>সংযোগ বিচ্ছিন্ন করা হয়েছে</item>
+        <item>অসফল</item>
+        <item>অবরুদ্ধ</item>
+        <item>সাময়িকরূপে দুর্বল সংযোগ এড়ানো হচ্ছে</item>
+    </string-array>
+    <string-array name="timezone_filters">
+        <item>আমেরিকা</item>
+        <item>ইউরোপ</item>
+        <item>আফ্রিকা</item>
+        <item>এশিয়া</item>
+        <item>অস্ট্রেলিয়া</item>
+        <item>পেসিফিক</item>
+        <item>সমস্ত</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>১৫ সেকেন্ড</item>
+        <item>৩০ সেকেন্ড</item>
+        <item>১ মিনিট</item>
+        <item>২ মিনিট</item>
+        <item>৫ মিনিট</item>
+        <item>১০ মিনিট</item>
+        <item>কখনই নয়</item>
+    </string-array>
+    <string-array name="dream_timeout_entries">
+        <item>কখনই নয়</item>
+        <item>১৫ সেকেন্ড</item>
+        <item>৩০ সেকেন্ড</item>
+        <item>১ মিনিট</item>
+        <item>২ মিনিট</item>
+        <item>৫ মিনিট</item>
+        <item>১০ মিনিট</item>
+        <item>৩০ মিনিট</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>অবিলম্বে</item>
+        <item>৫ সেকেন্ড</item>
+        <item>১৫ সেকেন্ড</item>
+        <item>৩০ সেকেন্ড</item>
+        <item>১ মিনিট</item>
+        <item>২ মিনিট</item>
+        <item>৫ মিনিট</item>
+        <item>১০ মিনিট</item>
+        <item>৩০ মিনিট</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>ক্ষুদ্র</item>
+        <item>স্বাভাবিক</item>
+        <item>বৃহত্‍</item>
+        <item>বিশাল</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>অত্যন্ত ধীরে</item>
+        <item>ধীর</item>
+        <item>স্বাভাবিক</item>
+        <item>দ্রুত</item>
+        <item>দ্রুত</item>
+        <item>খুব দ্রুত</item>
+        <item>রেপিড</item>
+        <item>অত্যন্ত রেপিড</item>
+        <item>দ্রুততম</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>খুব কম</item>
+        <item>নিম্ন</item>
+        <item>সাধারণ</item>
+        <item>উচ্চ</item>
+        <item>খুব বেশি</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+        <item>SIM</item>
+        <item>AKA</item>
+        <item>"AKA'"</item>
+    </string-array>
+    <string-array name="eap_method_without_sim_auth">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_p2p_wps_setup">
+        <item>পুশ বোতাম</item>
+        <item>যুক্ত করা ডিভাইস থেকে পিন</item>
+        <item>এই ডিভাইস থেকে পিন</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>সংযুক্ত হয়েছে</item>
+        <item>আমন্ত্রিত</item>
+        <item>অসফল</item>
+        <item>উপলব্ধ</item>
+        <item>পরিষেবার বাইরে</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>২ মিনিট</item>
+        <item>৫ মিনিট</item>
+        <item>১ ঘন্টা</item>
+        <item>কখনই সময় শেষ হবে না</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>নিম্নমানের</item>
+        <item>ভালো</item>
+        <item>ভালো</item>
+        <item>অসাধারণ</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>সবসময়</item>
+        <item>কেবলমাত্র যখন প্লাগ ইন তখন</item>
+        <item>কখনো নয়</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>সবসময়</item>
+        <item>কেবলমাত্র যখন প্লাগ ইন তখন</item>
+        <item>কখনই নয়</item>
+    </string-array>
+    <string-array name="data_usage_data_range">
+        <item>গত ৩০ দিন</item>
+        <item>ব্যবহার চক্র সেট করুন...</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>স্বয়ংক্রিয়</item>
+        <item>কেবলমাত্র ৫ GHz</item>
+        <item>কেবলমাত্র ২.৪ GHz</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>ব্যবহারের সময়</item>
+        <item>সর্বশেষ ব্যবহার হয়েছে</item>
+        <item>অ্যাপ্লিকেশান নাম</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>কোনো কিছুই নয়</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>কোনো কিছুই নয়</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>স্থির</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>কোনো কিছুই নয়</item>
+        <item>ম্যানুয়াল</item>
+        <item>প্রক্সি স্বতঃ-কনফিগারেশন</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>কোনো কিছুই নয়</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP বা CHAP</item>
+    </string-array>
+    <string-array name="apn_protocol_entries">
+        <item>IPv4</item>
+        <item>IPv6</item>
+        <item>IPv4/IPv6</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>অনির্দিষ্ট</item>
+        <item>LTE</item>
+        <item>HSPAP</item>
+        <item>HSPA</item>
+        <item>HSUPA</item>
+        <item>HSDPA</item>
+        <item>UMTS</item>
+        <item>EDGE</item>
+        <item>GPRS</item>
+        <item>eHRPD</item>
+        <item>EVDO_B</item>
+        <item>EVDO_A</item>
+        <item>EVDO_0</item>
+        <item>1xRTT</item>
+        <item>IS95B</item>
+        <item>IS95A</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item>কোনো কিছুই নয়</item>
+        <item>SPN</item>
+        <item>IMSI</item>
+        <item>GID</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>অভ্যন্তরীণ ডিভাইসের সঞ্চয়স্থান</item>
+        <item>অপসারণযোগ্য SD কার্ড</item>
+        <item>সিস্টেমকে সিদ্ধান্ত নিতে দিন</item>
+    </string-array>
+    <string-array name="app_ops_categories">
+        <item>অবস্থান</item>
+        <item>ব্যক্তিগত</item>
+        <item>বার্তাপ্রেরণ</item>
+        <item>মাধ্যম</item>
+        <item>ডিভাইস</item>
+    </string-array>
+    <string-array name="app_ops_summaries">
+        <item>অনির্দিষ্ট অবস্থান</item>
+        <item>সূক্ষ্ম অবস্থান</item>
+        <item>GPS</item>
+        <item>কম্পন</item>
+        <item>পরিচিতিগুলি পড়ুন</item>
+        <item>পরিচিতি পরিবর্তন করুন</item>
+        <item>কল লগ পড়ুন</item>
+        <item>কল লগ পরিবর্তন করুন</item>
+        <item>ক্যালেন্ডার পড়ুন</item>
+        <item>ক্যালেন্ডারে পরিবর্তন করুন</item>
+        <item>wi-fi স্ক্যান</item>
+        <item>বিজ্ঞপ্তি</item>
+        <item>সেল স্ক্যান</item>
+        <item>ফোন করুন</item>
+        <item>SMS পড়ুন</item>
+        <item>SMS লিখুন</item>
+        <item>SMS পান</item>
+        <item>জরুরী SMS পান</item>
+        <item>MMS পান</item>
+        <item>WAP পুশ পান</item>
+        <item>SMS পাঠান</item>
+        <item>ICC SMS পড়ুন</item>
+        <item>ICC SMS লিখুন</item>
+        <item>সেটিংস সংশোধন করুন</item>
+        <item>উপরে অঙ্কন করুন</item>
+        <item>বিজ্ঞপ্তিগুলি অ্যাক্সেস করুন</item>
+        <item>ক্যামেরা</item>
+        <item>অডিও রেকর্ড করুন</item>
+        <item>অডিও প্লে করুন</item>
+        <item>ক্লিপবোর্ড পড়ুন</item>
+        <item>ক্লিপবোর্ড সংশোধন করুন</item>
+        <item>মিডিয়া বোতাম</item>
+        <item>অডিও ফোকাস করুন</item>
+        <item>মাস্টার ভলিউম</item>
+        <item>ভয়েস ভলিউম</item>
+        <item>রিং ভলিউম</item>
+        <item>মিডিয়া ভলিউম</item>
+        <item>অ্যালার্মের ভলিউম</item>
+        <item>বিজ্ঞপ্তির ভলিউম</item>
+        <item>Bluetooth এর ভলিউম</item>
+        <item>জাগিয়ে রাখা</item>
+        <item>অবস্থান নিরীক্ষণ করুন</item>
+        <item>উচ্চ ক্ষমতার অবস্থান নিরীক্ষণ করুন</item>
+        <item>ব্যবহারের পরিসংখ্যান পান</item>
+        <item>মাইক্রোফোন নিঃশব্দ/সশব্দ করুন</item>
+        <item>মিডিয়া অভিক্ষেপ করুন</item>
+        <item>VPN সক্রিয় করুন</item>
+        <item>লেখার ওয়ালপেপার</item>
+        <item>গঠন সহায়তা</item>
+        <item>স্ক্রীনশট সহায়তা</item>
+    </string-array>
+    <string-array name="app_ops_labels">
+        <item>অবস্থান</item>
+        <item>অবস্থান</item>
+        <item>অবস্থান</item>
+        <item>কম্পন</item>
+        <item>পরিচিতিগুলি পড়ুন</item>
+        <item>পরিচিতি পরিবর্তন করুন</item>
+        <item>কল লগ পড়ুন</item>
+        <item>কল লগ পরিবর্তন করুন</item>
+        <item>ক্যালেন্ডার পড়ুন</item>
+        <item>ক্যালেন্ডারে পরিবর্তন করুন</item>
+        <item>অবস্থান</item>
+        <item>বিজ্ঞপ্তি পোস্ট করুন</item>
+        <item>অবস্থান</item>
+        <item>ফোন করুন</item>
+        <item>SMS/MMS পড়ুন</item>
+        <item>SMS/MMS লিখুন</item>
+        <item>SMS/MMS পান</item>
+        <item>SMS/MMS পান</item>
+        <item>SMS/MMS পান</item>
+        <item>SMS/MMS পান</item>
+        <item>SMS/MMS পাঠান</item>
+        <item>SMS/MMS পড়ুন</item>
+        <item>SMS/MMS লিখুন</item>
+        <item>সেটিংস সংশোধন করুন</item>
+        <item>উপরে অঙ্কন করুন</item>
+        <item>বিজ্ঞপ্তিগুলি অ্যাক্সেস করুন</item>
+        <item>ক্যামেরা</item>
+        <item>অডিও রেকর্ড করুন</item>
+        <item>অডিও প্লে করুন</item>
+        <item>ক্লিপবোর্ড পড়ুন</item>
+        <item>ক্লিপবোর্ড সংশোধন করুন</item>
+        <item>মিডিয়া বোতাম</item>
+        <item>অডিও ফোকাস</item>
+        <item>মাস্টার ভলিউম</item>
+        <item>ভয়েস ভলিউম</item>
+        <item>রিং ভলিউম</item>
+        <item>মিডিয়া ভলিউম</item>
+        <item>অ্যালার্মের ভলিউম</item>
+        <item>বিজ্ঞপ্তির ভলিউম</item>
+        <item>Bluetooth এর ভলিউম</item>
+        <item>জাগ্রত রাখুন</item>
+        <item>অবস্থান</item>
+        <item>অবস্থান</item>
+        <item>ব্যবহারের পরিসংখ্যান পান</item>
+        <item>মাইক্রোফোন নিঃশব্দ/সশব্দ করুন</item>
+        <item>মিডিয়া প্রক্ষেপ করুন</item>
+        <item>VPN সক্রিয় করুন</item>
+        <item>লেখার ওয়ালপেপার</item>
+        <item>গঠন সহায়তা</item>
+        <item>স্ক্রীনশট সহায়তা</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>স্বল্প</item>
+        <item>মাঝারি</item>
+        <item>দীর্ঘ</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>ডিফল্ট</item>
+        <item>Sans Serif</item>
+        <item>Sans-serif ঘনীভূত</item>
+        <item>Sans-serif monospace</item>
+        <item>Serif</item>
+        <item>Serif monospace</item>
+        <item>ক্যাজুয়্যাল</item>
+        <item>কার্সিভ</item>
+        <item>Small Capitals</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>অতি ক্ষুদ্র</item>
+        <item>ক্ষুদ্র</item>
+        <item>Normal</item>
+        <item>বৃহত্‍</item>
+        <item>খুব বড়</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>ডিফল্ট</item>
+        <item>কোনো কিছুই নয়</item>
+        <item>রূপরেখা</item>
+        <item>ড্রপ শ্যাডো</item>
+        <item>ওঠানো</item>
+        <item>চাপা</item>
+    </string-array>
+    <string-array name="captioning_opacity_selector_titles">
+        <item>২৫%</item>
+        <item>৫০%</item>
+        <item>৭৫%</item>
+        <item>১০০%</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>অ্যাপের ডিফল্টগুলি ব্যবহার করুন</item>
+        <item>কালোর উপর সাদা</item>
+        <item>সাদার উপর কালো</item>
+        <item>কালোর উপর হলুদ</item>
+        <item>নীলের উপর হলুদ</item>
+        <item>কাস্টম</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>৬৪০০০</item>
+        <item>২৫৬০০০</item>
+        <item>১০০০০০০</item>
+        <item>৪০০০০০০</item>
+        <item>১৬০০০০০০</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>৬৪০০০</item>
+        <item>২৫৬০০০</item>
+        <item>১০০০০০০</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>লগ বাফার প্রতি 64K</item>
+        <item>লগ বাফার প্রতি 256K</item>
+        <item>লগ বাফার প্রতি 1M</item>
+        <item>লগ বাফার প্রতি 4M</item>
+        <item>লগ বাফার প্রতি 16M</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>কখনই চেক করবেন না</item>
+        <item>শুধুমাত্র DRM সামগ্রীর জন্য HDCP চেক করুন</item>
+        <item>সর্বদা চেক করুন</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>HDCP পরীক্ষণ কখনও ব্যবহার করবেন না</item>
+        <item>শুধুমাত্র DRM সামগ্রীর জন্য HDCP চেক করা ব্যবহার করুন</item>
+        <item>সর্বদা HDCP পরীক্ষণ ব্যবহার করুন</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>অ্যানিমেশন বন্ধ করুন</item>
+        <item>অ্যানিমেশন স্কেল .৫x</item>
+        <item>অ্যানিমেশন স্কেল ১x</item>
+        <item>অ্যানিমেশন স্কেল ১.৫x</item>
+        <item>অ্যানিমেশন স্কেল ২x</item>
+        <item>অ্যানিমেশন স্কেল ৫x</item>
+        <item>অ্যানিমেশন স্কেল ১০x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>অ্যানিমেশন বন্ধ করুন</item>
+        <item>অ্যানিমেশন স্কেল .৫x</item>
+        <item>অ্যানিমেশন স্কেল ১x</item>
+        <item>অ্যানিমেশন স্কেল ১.৫x</item>
+        <item>অ্যানিমেশন স্কেল ২x</item>
+        <item>অ্যানিমেশন স্কেল ৫x</item>
+        <item>অ্যানিমেশন স্কেল ১০x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>অ্যানিমেশন বন্ধ করুন</item>
+        <item>অ্যানিমেশন স্কেল .৫x</item>
+        <item>অ্যানিমেশন স্কেল ১x</item>
+        <item>অ্যানিমেশন স্কেল ১.৫x</item>
+        <item>অ্যানিমেশন স্কেল ২x</item>
+        <item>অ্যানিমেশন স্কেল 5x</item>
+        <item>অ্যানিমেশন স্কেল ১০x</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>কোনো কিছুই নয়</item>
+        <item>480p</item>
+        <item>480p (নিরাপদ)</item>
+        <item>720p</item>
+        <item>720p (নিরাপদ)</item>
+        <item>1080p</item>
+        <item>1080p (নিরাপদ)</item>
+        <item>4K</item>
+        <item>4K (নিরাপদ)</item>
+        <item>4K (সম্পন্ন)</item>
+        <item>4K (সম্পন্ন, নিরাপদ)</item>
+        <item>720p, 1080p (ডুয়েল স্ক্রীন)</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>কোনো কিছুই নয়</item>
+        <item>Logcat</item>
+        <item>Systrace (গ্রাফিক্স)</item>
+        <item>glGetError উপরে স্ট্যাক কল করুন</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>বন্ধ করুন</item>
+        <item>নীল বঙের অ-আয়তক্ষেত্রাকার ক্লিপ অঞ্চল অঙ্কন করুন</item>
+        <item>সবুজ রঙে অঙ্কন করা পরীক্ষিত কমান্ডগুলি হাইলাইট করুন</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>বন্ধ করুন</item>
+        <item>দন্ড হিসাবে স্ক্রীনে</item>
+        <item>adb shell dumpsys gfxinfo এ</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>বন্ধ করুন</item>
+        <item>অতিবর্ণনা এলাকা দেখান</item>
+        <item>বর্ণান্ধতার জন্য এলাকা দেখান</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>মানক সীমা</item>
+        <item>কোন ব্যাকগ্রাউন্ড প্রক্রিয়া নেই</item>
+        <item>১টি প্রক্রিয়ার বেশি নয়</item>
+        <item>২টি প্রক্রিয়ার বেশী নয়</item>
+        <item>৩টি প্রক্রিয়ার বেশি নয়</item>
+        <item>৪টি প্রক্রিয়ার বেশি নয়</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>PPTP VPN</item>
+        <item>আগে থেকে ভাগ করা কীগুলির সাথে L2TP/IPSec VPN</item>
+        <item>শংসাপত্রগুলির সাথে L2TP/IPSec VPN</item>
+        <item>আগে থেকে ভাগ করা কীগুলি এবং Xauth প্রমাণীকরণের সাথে IPSec VPN</item>
+        <item>শংসাপত্রগুলি এবং Xauth প্রমাণীকরণের সাথে IPSec VPN</item>
+        <item>শংসাপত্রগুলি এবং হাইব্রীড প্রমাণীকরণের সাথে IPSec VPN</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>সংযোগ বিচ্ছিন্ন</item>
+        <item>আরম্ভ হচ্ছে...</item>
+        <item>সংযুক্ত হচ্ছে...</item>
+        <item>সংযুক্ত হয়েছে</item>
+        <item>সময়সীমা সমাপ্ত</item>
+        <item>অসফল</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>জিজ্ঞাসা করুন</item>
+        <item>কখনো অনুমতি দেবেন না</item>
+        <item>সর্বদা অনুমতি দিন</item>
+    </string-array>
+    <string-array name="ram_states">
+        <item>স্বাভাবিক</item>
+        <item>মাঝারি</item>
+        <item>কম</item>
+        <item>জটিল</item>
+        <item>\?</item>
+    </string-array>
+    <string-array name="proc_stats_memory_states">
+        <item>স্বাভাবিক</item>
+        <item>মাঝারি</item>
+        <item>কম</item>
+        <item>জটিল</item>
+    </string-array>
+    <string-array name="proc_stats_process_states">
+        <item>ক্রমাগত</item>
+        <item>শীর্ষ কার্যকলাপ</item>
+        <item>গুরুত্বপূর্ণ (পুরোভাগে)</item>
+        <item>গুরুত্বপূর্ণ (পশ্চাদপট)</item>
+        <item>ব্যাকআপ</item>
+        <item>হেভি ওয়েট</item>
+        <item>পরিষেবা (চলমান)</item>
+        <item>পরিষেবা (পুনরায় চালু হচ্ছে)</item>
+        <item>রিসিভার</item>
+        <item>হোম</item>
+        <item>সর্বশেষ কার্যকলাপ</item>
+        <item>ব্যবহৃত ক্যাশে (কার্যকলাপ)</item>
+        <item>ব্যবহৃত ক্যাশে (কার্যকলাপ ক্লায়েন্ট)</item>
+        <item>ব্যবহৃত ক্যাশে (খালি)</item>
+    </string-array>
+    <string-array name="color_picker">
+        <item>টিল</item>
+        <item>নীল</item>
+        <item>বেগুনি নীলবর্ণ</item>
+        <item>বেগুনি</item>
+        <item>গোলাপী</item>
+        <item>লাল</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>WLAN ব্যবহার করুন</item>
+        <item>পছন্দের মোবাইল নেটওয়ার্ক</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_values">
+        <item>২</item>
+        <item>১</item>
+    </string-array>
+    <string-array name="haptic_feedback_level_texts">
+        <item>বন্ধ</item>
+        <item>হালকা</item>
+        <item>মাঝারি</item>
+        <item>শক্তিশালী</item>
+    </string-array>
+    <string-array name="media_feedback_level_entries">
+        <item>প্রচন্ড</item>
+        <item>মাঝারি</item>
+        <item>হালকা</item>
+    </string-array>
+    <string-array name="battery_indicator_style_entries">
+        <item>চিত্রানুগ</item>
+        <item>শতকরা হার</item>
+        <item>উপরের বার</item>
+    </string-array>
+    <string-array name="usb_connection_mode_entries">
+        <item>সংযোগে বিষয়ে জিজ্ঞাসা করুন</item>
+        <item>শুধুমাত্র চার্জ</item>
+        <item>SD কার্ড মাউন্ট করুন</item>
+    </string-array>
+    <string-array name="led_freq_entries">
+        <item>২ সেকেন্ড</item>
+        <item>৩ সেকেন্ড</item>
+        <item>৪ সেকেন্ড</item>
+        <item>৫ সেকেন্ড</item>
+        <item>৬ সেকেন্ড</item>
+        <item>৭ সেকেন্ড</item>
+        <item>৮ সেকেন্ড</item>
+        <item>৯ সেকেন্ড</item>
+    </string-array>
+    <string-array name="mi1_led_color_entries">
+        <item>নীল</item>
+        <item>লাল</item>
+        <item>সবুজ</item>
+        <item>গোলাপি</item>
+        <item>বেগুনি</item>
+        <item>রক্তবর্ণ</item>
+    </string-array>
+    <string-array name="led_color_entries">
+        <item>নীল</item>
+        <item>লাল</item>
+        <item>হলুদ</item>
+        <item>সবুজ</item>
+        <item>নীলাভ-সবুজ</item>
+        <item>সাদা</item>
+        <item>বেগুনি</item>
+    </string-array>
+    <string-array name="screen_key_position_action">
+        <item>মেনু বোতাম বাঁদিকে ,পেছনে যাওয়ার বোতাম ডান দিকে</item>
+        <item>পেছনে যাওয়ার বোতাম বাঁ দিকে,মেনু বোতাম ডান দিকে</item>
+    </string-array>
+    <string-array name="screen_key_press_action">
+        <item>সাম্প্রতিক অ্যাপ্স ট্রে দেখান</item>
+        <item>মেনু দেখান</item>
+    </string-array>
+    <string-array name="screen_key_long_press_action">
+        <item>কোনটিই নয়</item>
+        <item>সাম্প্রতিক অ্যাপ্স দেখান</item>
+        <item>লঞ্চ সহায়ক</item>
+        <item>এখন Google লঞ্চ করুন</item>
+        <item>বর্তমান অ্যাপ বন্ধ করুন</item>
+        <item>দ্রুত অনুসন্ধান লঞ্চ করুন</item>
+        <item>মেনু দেখান</item>
+    </string-array>
+    <string-array name="screen_key_long_press_timeout">
+        <item>০.৫ সেকেন্ড</item>
+        <item>১ সেকেন্ড</item>
+        <item>১.৫ সেকেন্ড</item>
+        <item>২ সেকেন্ড</item>
+    </string-array>
+    <string-array name="long_press_volume_down_action">
+        <item>কোনটাই নয়</item>
+        <item>কুইক সন্যাপ মোড (ক্যামেরাতে বেছে নিন)</item>
+        <item>পাবলিক ট্রান্সপোর্ট শর্টকাট</item>
+    </string-array>
+    <string-array name="long_press_volume_down_action_value">
+        <item>one</item>
+        <item>Street-snap</item>
+        <item>public_transportation_shortcuts</item>
+    </string-array>
+    <string-array name="button_light_timeout_entries">
+        <item>১ সেকেন্ড</item>
+        <item>২ সেকেন্ড</item>
+        <item>৫ সেকেন্ড</item>
+        <item>১০ সেকেন্ড</item>
+        <item>২০ সেকেন্ড</item>
+        <item>সবসময়</item>
+    </string-array>
+    <string-array name="wfd_status">
+        <item>সেশন শুরু হচ্ছে…</item>
+        <item>সেশন শুরু হয়েছে</item>
+        <item>ব্যাহত হচ্ছে…</item>
+        <item>সেশন শুরু করা গেল না</item>
+        <item>সময় শেষ হয়ে গেছে। পুনরায় চেষ্টা হচ্ছে…</item>
+        <item>ডিভাইস সংযুক্ত হয়েছে</item>
+    </string-array>
+    <string-array name="power_mode_entries">
+        <item>কার্য সম্পাদন</item>
+        <item>সীমিত</item>
+    </string-array>
+    <string-array name="msd_pc_system">
+        <item>Windows XP এবং পুরোনো</item>
+        <item>Windows Vista এবং নতুনগুলি</item>
+        <item>OSX</item>
+        <item>Linux</item>
+    </string-array>
+    <string-array name="msd_pc_system_install_summary">
+        <item>2.অনস্ক্রিন নির্দেশাবলী অনুসরণ করুন</item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="msd_pc_system_install_finish_summary">
+        <item>@string/msd_pc_system_install_finish_summary_xp</item>
+        <item>@string/msd_pc_system_install_finish_summary_vista</item>
+        <item>যখন কোনো কম্পিউটারে সংযুক্ত হবে তখন ইউএসবি অধিক সঞ্চয়স্থান স্বয়ংক্রিয়ভাবে খুলে যাবে।</item>
+        <item></item>
+    </string-array>
+    <string-array name="msd_pc_system_retry_xp">
+        <item>@string/msd_install_retry_connect</item>
+        <item>Miফোন ম্যানেজার পুনরায় ইনস্টল করতে হবে।</item>
+    </string-array>
+    <string-array name="msd_pc_system_retry_vista">
+        <item>@string/msd_install_retry_connect</item>
+    </string-array>
+    <string-array name="msd_pc_system_retry_mac">
+        <item>@string/msd_install_retry_reinstall_mac</item>
+        <item>@string/msd_install_retry_connect</item>
+        <item>@string/msd_install_retry_reinstall</item>
+    </string-array>
+    <string-array name="msd_pc_system_retry_linux">
+        <item>Install tool: sudo aptitude install mtpfs libfuse-dev libmad0-dev</item>
+        <item>ডিরেক্টরি তৈরি করুন: mkdir /media/mtp</item>
+        <item>বর্তমান ফিউজ ব্যবহারকারী দলে ব্যবহারকারী দলের অনুমতি নিশ্চিত করুন</item>
+        <item>পুনরায় সাইন ইন করুন</item>
+        <item>Access mounted device: mtpfs /media/mtp via file explorer; same as local directory</item>
+        <item>"Uninstall device: fusermount -u /media/mtp
+Note: Only for Ubuntu 8.04!"</item>
+    </string-array>
+    <string-array name="screen_color_title">
+        <item>উষ্ণ</item>
+        <item>স্বাভাবিক</item>
+        <item>কুল</item>
+    </string-array>
+    <string-array name="screen_saturation_title">
+        <item>দীপ্তিময়</item>
+        <item>স্বাভাবিক</item>
+    </string-array>
+    <string-array name="screen_optimize_title">
+        <item>স্বয়ংক্রিয় কন্ট্রাস্ট</item>
+        <item>কন্ট্রাস্ট বাড়ানো হয়েছে</item>
+        <item>স্বাভাবিক</item>
+    </string-array>
+    <string-array name="screen_optimize_summary">
+        <item>উপলভ্য আলোর জন্য কনট্রাস্টের সর্বাধিক লাভ পান</item>
+        <item>প্রদর্শনের কনট্রাস্ট বৃদ্ধি করুন</item>
+        <item>কনস্ট্রাট অবিরত বজায় থাকবে</item>
+    </string-array>
+    <string-array name="perm_hips_action">
+        <item>অনুমতি দিন</item>
+        <item>জিজ্ঞাসা করুন</item>
+        <item>অস্বীকার করুন</item>
+    </string-array>
+    <string-array name="startup_hips_action">
+        <item>অনুমতি দিন</item>
+        <item>অস্বীকার করুন</item>
+    </string-array>
+    <string-array name="phone_call_noise_suppression_title">
+        <item>সিংগেল-মাইক আওয়াজ চাপুন</item>
+        <item>ডুয়াল-মাইক আওয়াজ চাপুন</item>
+    </string-array>
+    <string-array name="change_security_lock_picker">
+        <item>ফেস আনলক করুন</item>
+        <item>রীতি</item>
+        <item>PIN</item>
+        <item>পাসওয়ার্ড</item>
+    </string-array>
+    <string-array name="wifi_connect_type_entries">
+        <item>স্বয়ংক্রিয়ভাবে সংযোগ হয়</item>
+        <item>ম্যানুয়ালি সংযোগ হয়</item>
+        <item>সর্বদা জিজ্ঞাসা করে</item>
+    </string-array>
+    <string-array name="wifi_ssid_type_entries">
+        <item>স্বয়ংক্রিয়ভাবে সংযোগ করুন</item>
+        <item>ম্যানুয়ালি সংযোগ করুন</item>
+    </string-array>
+    <string-array name="preferred_app_entries">
+        <item>লঞ্চার</item>
+        <item>ডায়াল</item>
+        <item>বার্তাবাহক</item>
+        <item>ব্রাউজার</item>
+        <item>ক্যামেরা</item>
+        <item>গ্যালারি</item>
+        <item>সংগীত</item>
+        <item>ইমেল</item>
+        <item>ভিডিও চালান</item>
+    </string-array>
+    <string-array name="network_speed_slow_summary">
+        <item>অতিরিক্ত ট্রাফিক থাকার জন্য নেটওয়ার্কের গতি কম রয়েছে</item>
+        <item>খারাপ সিগন্যাল ক্ষমতার জন্য নেটওয়ার্ক গতি কম রয়েছে</item>
+        <item>সরানো হচ্ছে…</item>
+    </string-array>
+    <string-array name="priority_storage_entries">
+        <item>অভ্যন্তরীণ সঞ্চয়স্থান</item>
+        <item>বাহ্যিক সঞ্চয়স্থান</item>
+    </string-array>
+    <string-array name="tts_rate_xunfei_entries">
+        <item>Very slow</item>
+        <item>Slow</item>
+        <item>Normal</item>
+        <item>Fast</item>
+        <item>Faster</item>
+    </string-array>
+    <string-array name="whetstone_level_entries">
+        <item>বন্ধ করুন</item>
+        <item>নিম্ন</item>
+        <item>মধ্য</item>
+        <item>উচ্চ</item>
+    </string-array>
+    <string-array name="whetstone_level_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="agps_network_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="agps_network_entries">
+        <item>মুখ্য নেটওয়ার্ক</item>
+        <item>সমস্ত নেটওয়ার্ক</item>
+    </string-array>
+    <string-array name="agps_si_mode_entries">
+        <item>MSB</item>
+        <item>MSA</item>
+    </string-array>
+    <string-array name="agps_apn_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="agps_apn_entries">
+        <item>CMWAP</item>
+        <item>CMNET</item>
+    </string-array>
+    <string-array name="agps_reset_type_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="agps_reset_type_entries">
+        <item>গরম</item>
+        <item>উষ্ণ</item>
+        <item>ঠাণ্ডা</item>
+    </string-array>
+    <string-array name="handy_mode_size_text_entries">
+        <item>৪.৫ ইঞ্চি</item>
+        <item>৪.০ ইঞ্চি</item>
+        <item>৩.৫ ইঞ্চি</item>
+    </string-array>
+    <string-array name="handy_mode_size_value_entries">
+        <item>4.5</item>
+        <item>4.0</item>
+        <item>3.5</item>
+    </string-array>
+    <string-array name="lock_screen_secure_after_timeout_entries">
+        <item>এখনই</item>
+        <item>৩০ সেকেন্ড</item>
+        <item>১ মিনিট</item>
+        <item>২ মিনিট</item>
+        <item>৫ মিনিট</item>
+    </string-array>
+    <string-array name="fluency_mode_entries">
+        <item>সিসটেম অ্যানিমেশান লুকান</item>
+        <item>সিসটেম অ্যানিমেশান দেখান</item>
+    </string-array>
+    <string-array name="fluency_mode_summaries">
+        <item>ডিভাইসের কার্য সম্পাদনের গতী বাড়িয়ে দেয়</item>
+        <item>ডিভাইসের কার্য সম্পাদনের গতী কমিয়ে দেয়</item>
+    </string-array>
+    <string-array name="fluency_mode_confirms">
+        <item>এই সেটিংস সক্রিয় করতে আপনার ডিভাইস রিবুট করবেন?</item>
+        <item>এই সেটিংস সক্রিয় করতে আপনার ডিভাইস রিবুট করবেন?</item>
+    </string-array>
+    <string-array name="screen_resolution_entries">
+        <item>আল্ট্রাহাই (2k)</item>
+        <item>সাধারণ (720p)</item>
+    </string-array>
+    <string-array name="miui_entries_font_size">
+        <item>S</item>
+        <item>M</item>
+        <item>L</item>
+        <item>XL</item>
+        <item>অত্যন্ত বড়</item>
+        <item>Xঅত্যন্ত বড়</item>
+    </string-array>
+    <string-array name="max_number_titles">
+        <item>6</item>
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>অসীমিত</item>
+    </string-array>
+    <string-array name="organized_locales">
+        <item>dz</item>
+        <item>ao</item>
+        <item>bh</item>
+        <item>bw</item>
+        <item>br</item>
+        <item>cm</item>
+        <item>cd</item>
+        <item>ci</item>
+        <item>eg</item>
+        <item>gq</item>
+        <item>et</item>
+        <item>fr</item>
+        <item>gh</item>
+        <item>hk</item>
+        <item>in</item>
+        <item>id</item>
+        <item>ir</item>
+        <item>ke</item>
+        <item>ls</item>
+        <item>mw</item>
+        <item>my</item>
+        <item>mx</item>
+        <item>ma</item>
+        <item>mz</item>
+        <item>mm</item>
+        <item>na</item>
+        <item>ng</item>
+        <item>ph</item>
+        <item>qa</item>
+        <item>ru</item>
+        <item>rw</item>
+        <item>sn</item>
+        <item>sg</item>
+        <item>za</item>
+        <item>kr</item>
+        <item>sz</item>
+        <item>tw</item>
+        <item>tz</item>
+        <item>th</item>
+        <item>tr</item>
+        <item>ug</item>
+        <item>ua</item>
+        <item>ae</item>
+        <item>vn</item>
+        <item>zm</item>
+        <item>zw</item>
+    </string-array>
+    <string-array name="common_password_business_names">
+        <item>স্ক্রীন লক করুন</item>
+        <item>গোপনীয়তা পাসওয়ার্ড</item>
+        <item>চাইল্ড মোড</item>
+        <item>ফাইল এক্সপ্লোরার</item>
+        <item>অ্যাপ লক</item>
+        <item>দ্বিতীয় জায়গা</item>
+    </string-array>
+    <string-array name="anr_record_interval_entries">
+        <item>১০ সেক</item>
+        <item>২০ সেক</item>
+        <item>৩০ সেক</item>
+        <item>১ মিনিট</item>
+    </string-array>
+    <string-array name="anr_record_interval_values">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+    </string-array>
+    <string-array name="screen_button_style">
+        <item>বাঁ হাতের স্টাইল</item>
+        <item>ডান হাতের স্টাইল</item>
+    </string-array>
+    <string-array name="alarm_repeat_type">
+        <item>প্রতিদিন</item>
+        <item>কর্মদিবস</item>
+        <item>কাস্টম</item>
+    </string-array>
+    <string-array name="alarm_repeat_type_no_workdays">
+        <item>প্রতিদিন</item>
+        <item>কর্মদিবস</item>
+        <item>কাস্টম</item>
+    </string-array>
+    <string-array name="privacy_password_function_specfication_names">
+        <item>বার্তা</item>
+        <item>ফটো</item>
+        <item>ফাইল</item>
+        <item>নোট্স</item>
+        <item>চাইল্ড মোড</item>
+    </string-array>
+</resources>

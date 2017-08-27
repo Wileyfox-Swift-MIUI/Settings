@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="status_bar_style_entries">
+        <item>משולב</item>
+        <item>הפרד</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 שניות</item>
+        <item>30 שניות</item>
+        <item>דקה 1</item>
+        <item>2 דקות</item>
+        <item>5 דקות</item>
+        <item>10 דקות</item>
+        <item>לעולם לא</item>
+    </string-array>
+    <string-array name="haptic_feedback_level_texts">
+        <item>כבוי</item>
+        <item>חלש</item>
+        <item>בינוני</item>
+        <item>חזק</item>
+    </string-array>
+    <string-array name="media_feedback_level_entries">
+        <item>חזק</item>
+        <item>בינוני</item>
+        <item>חלש</item>
+    </string-array>
+    <string-array name="battery_indicator_style_entries">
+        <item>גרפי</item>
+        <item>אחוזים</item>
+        <item>בר עליון</item>
+    </string-array>
+    <string-array name="usb_connection_mode_entries">
+        <item>שאל בעת חיבור</item>
+        <item>טעינה בלבד</item>
+        <item>טען כרטיס זכרון</item>
+    </string-array>
+    <string-array name="led_freq_entries">
+        <item>2 שניות</item>
+        <item>3 שניות</item>
+        <item>4 שניות</item>
+        <item>5 שניות</item>
+        <item>6 שניות</item>
+        <item>7 שניות</item>
+        <item>8 שניות</item>
+        <item>9 שניות</item>
+    </string-array>
+    <string-array name="mi1_led_color_entries">
+        <item>כחול</item>
+        <item>אדום</item>
+        <item>ירוק</item>
+        <item>ורוד</item>
+        <item>סגול</item>
+        <item>סגול</item>
+    </string-array>
+    <string-array name="led_color_entries">
+        <item>כחול</item>
+        <item>אדום</item>
+        <item>צהוב</item>
+        <item>ירוק</item>
+        <item>טורקיז</item>
+        <item>לבן</item>
+        <item>סגול</item>
+    </string-array>
+    <string-array name="screen_key_position_action">
+        <item>"לחצן 'תפריט' משמאל, לחצן 'חזרה' מימין"</item>
+        <item>"לחצן 'חזרה' משמאל, לחצן 'תפריט' מימין"</item>
+    </string-array>
+    <string-array name="screen_key_press_action">
+        <item>הצג את מגש היישומים האחרונים</item>
+        <item>הצג תפריט</item>
+    </string-array>
+    <string-array name="screen_key_long_press_action">
+        <item>ללא</item>
+        <item>הצג יישומים אחרונים</item>
+        <item>אשף ההפעלה</item>
+        <item>הפעל את Google Now</item>
+        <item>סגור את היישום הנוכחי</item>
+        <item>הפעל את החיפוש המהיר</item>
+        <item>הצג תפריט</item>
+    </string-array>
+    <string-array name="screen_key_long_press_timeout">
+        <item>0.5 שניות</item>
+        <item>שניה 1</item>
+        <item>1.5 שניות</item>
+        <item>2 שניות</item>
+    </string-array>
+    <string-array name="long_press_volume_down_action">
+        <item>ללא</item>
+        <item>"מצב 'צילום מהיר' (בחר ב'מצלמה')"</item>
+        <item>קיצורי דרך של תחבורה ציבורית</item>
+    </string-array>
+    <string-array name="long_press_volume_down_action_value">
+        <item>one</item>
+        <item>Street-snap</item>
+        <item>public_transportation_shortcuts</item>
+    </string-array>
+    <string-array name="button_light_timeout_entries">
+        <item>שניה 1</item>
+        <item>2 שניות</item>
+        <item>5 שניות</item>
+        <item>10 שניות</item>
+        <item>20 שניות</item>
+        <item>תמיד</item>
+    </string-array>
+    <string-array name="wfd_status">
+        <item>מתחיל תהליך…</item>
+        <item>התהליך החל</item>
+        <item>הורס…</item>
+        <item>לא ניתן להתחיל את התהליך</item>
+        <item>פג התוקף. מנסה מחדש…</item>
+        <item>המכשיר מחובר</item>
+    </string-array>
+    <string-array name="power_mode_entries">
+        <item>ביצועים</item>
+        <item>מאוזן</item>
+    </string-array>
+    <string-array name="msd_pc_system">
+        <item>Windows XP וישן יותר</item>
+        <item>Windows Vista וחדש יותר</item>
+        <item>OSX</item>
+        <item>Linux</item>
+    </string-array>
+    <string-array name="msd_pc_system_install_summary">
+        <item>2.עקוב אחר ההוראות על גבי המסך</item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="msd_pc_system_install_finish_summary">
+        <item>@string/msd_pc_system_install_finish_summary_xp</item>
+        <item>@string/msd_pc_system_install_finish_summary_vista</item>
+        <item>אחסון USB יפתח אוטומטית בעת חיבור למחשב.</item>
+        <item></item>
+    </string-array>
+    <string-array name="msd_pc_system_retry_xp">
+        <item>@string/msd_install_retry_connect</item>
+        <item>התקן מחדש את MiPhoneManager.</item>
+    </string-array>
+    <string-array name="msd_pc_system_retry_vista">
+        <item>@string/msd_install_retry_connect</item>
+    </string-array>
+    <string-array name="msd_pc_system_retry_mac">
+        <item>@string/msd_install_retry_reinstall_mac</item>
+        <item>@string/msd_install_retry_connect</item>
+        <item>@string/msd_install_retry_reinstall</item>
+    </string-array>
+    <string-array name="msd_pc_system_retry_linux">
+        <item>Install tool: sudo aptitude install mtpfs libfuse-dev libmad0-dev</item>
+        <item>צור תיקיה: mkdir /media/mtp</item>
+        <item>אשר מתן הרשאות משתמש קבוצתיות לקבוצת המשתמשים הנוכחית</item>
+        <item>היכנס שוב</item>
+        <item>Access mounted device: mtpfs /media/mtp via file explorer; same as local directory</item>
+        <item>"Uninstall device: fusermount -u /media/mtp
+Note: Only for Ubuntu 8.04!"</item>
+    </string-array>
+    <string-array name="screen_color_title">
+        <item>חם</item>
+        <item>רגיל</item>
+        <item>קר</item>
+    </string-array>
+    <string-array name="screen_saturation_title">
+        <item>מבריק</item>
+        <item>רגיל</item>
+    </string-array>
+    <string-array name="screen_optimize_title">
+        <item>ניגודיות אוטומטית</item>
+        <item>ניגודיות מוגברת</item>
+        <item>רגיל</item>
+    </string-array>
+    <string-array name="screen_optimize_summary">
+        <item>ייעל את הניגודיות עבור התאורה הנתונה</item>
+        <item>הגבר את ניגודיות התצוגה</item>
+        <item>הניגודיות תישאר קבועה</item>
+    </string-array>
+    <string-array name="perm_hips_action">
+        <item>אפשר</item>
+        <item>שאל</item>
+        <item>דחה</item>
+    </string-array>
+    <string-array name="startup_hips_action">
+        <item>אשר</item>
+        <item>דחה</item>
+    </string-array>
+    <string-array name="phone_call_noise_suppression_title">
+        <item>השתקת רעש במיקרופון יחיד</item>
+        <item>השתקת רעש במיקרופון זוגי</item>
+    </string-array>
+    <string-array name="change_security_lock_picker">
+        <item>ביטול נעילה באמצעות פנים</item>
+        <item>תבנית</item>
+        <item>PIN</item>
+        <item>סיסמה</item>
+    </string-array>
+    <string-array name="wifi_connect_type_entries">
+        <item>חיבור אוטומטי</item>
+        <item>חיבור באופן ידני</item>
+        <item>שאל תמיד</item>
+    </string-array>
+    <string-array name="wifi_ssid_type_entries">
+        <item>חיבור אוטומטי</item>
+        <item>חיבור באופן ידני</item>
+    </string-array>
+    <string-array name="preferred_app_entries">
+        <item>משגר היישומים</item>
+        <item>חיוג</item>
+        <item>הודעות</item>
+        <item>דפדפן</item>
+        <item>מצלמה</item>
+        <item>גלריה</item>
+        <item>מוסיקה</item>
+        <item>דוא\"ל</item>
+        <item>הפעל וידאו</item>
+    </string-array>
+    <string-array name="network_speed_slow_summary">
+        <item>הרשת איטית עקב תעבורה רבה מידי</item>
+        <item>הרשת איטית עקב אות חלש</item>
+        <item>עובר…</item>
+    </string-array>
+    <string-array name="priority_storage_entries">
+        <item>אחסון פנימי</item>
+        <item>אחסון חיצוני</item>
+    </string-array>
+    <string-array name="tts_rate_xunfei_entries">
+        <item>Very slow</item>
+        <item>Slow</item>
+        <item>Normal</item>
+        <item>Fast</item>
+        <item>Faster</item>
+    </string-array>
+    <string-array name="whetstone_level_entries">
+        <item>כבוי</item>
+        <item>נמוך</item>
+        <item>בינוני</item>
+        <item>גבוה</item>
+    </string-array>
+    <string-array name="whetstone_level_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="agps_network_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="agps_network_entries">
+        <item>רשת ביתית</item>
+        <item>כל הרשתות</item>
+    </string-array>
+    <string-array name="agps_si_mode_entries">
+        <item>MSB</item>
+        <item>MSA</item>
+    </string-array>
+    <string-array name="agps_apn_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="agps_apn_entries">
+        <item>CMWAP</item>
+        <item>CMNET</item>
+    </string-array>
+    <string-array name="agps_reset_type_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="agps_reset_type_entries">
+        <item>חם</item>
+        <item>חמים</item>
+        <item>קר</item>
+    </string-array>
+    <string-array name="handy_mode_size_text_entries">
+        <item>"4.5 אינץ'"</item>
+        <item>"4.0 אינץ'"</item>
+        <item>"3.5 אינץ'"</item>
+    </string-array>
+    <string-array name="handy_mode_size_value_entries">
+        <item>4.5</item>
+        <item>4.0</item>
+        <item>3.5</item>
+    </string-array>
+    <string-array name="lock_screen_secure_after_timeout_entries">
+        <item>מידית</item>
+        <item>30 שניות</item>
+        <item>דקה 1</item>
+        <item>2 דקות</item>
+        <item>5 דקות</item>
+    </string-array>
+    <string-array name="fluency_mode_entries">
+        <item>הסתר אנימציות מערכת</item>
+        <item>הצג אנימציות מערכת</item>
+    </string-array>
+    <string-array name="fluency_mode_summaries">
+        <item>האץ את ביצועי המכשיר</item>
+        <item>עלול להאט את ביצועי המכשיר</item>
+    </string-array>
+    <string-array name="fluency_mode_confirms">
+        <item>לאתחל את המכשיר על מנת להחיל הגדרה זו?</item>
+        <item>לאתחל את המכשיר על מנת להחיל הגדרה זו?</item>
+    </string-array>
+    <string-array name="screen_resolution_entries">
+        <item>גבוהה במיוחד (2K)</item>
+        <item>רגילה (720p)</item>
+    </string-array>
+    <string-array name="miui_entries_font_size">
+        <item>S</item>
+        <item>M</item>
+        <item>L</item>
+        <item>XL</item>
+        <item>XXL</item>
+        <item>XXXL</item>
+    </string-array>
+    <string-array name="max_number_titles">
+        <item>6</item>
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>ללא הגבלה</item>
+    </string-array>
+    <string-array name="organized_locales">
+        <item>dz</item>
+        <item>ao</item>
+        <item>bh</item>
+        <item>bw</item>
+        <item>br</item>
+        <item>cm</item>
+        <item>cd</item>
+        <item>ci</item>
+        <item>eg</item>
+        <item>gq</item>
+        <item>et</item>
+        <item>fr</item>
+        <item>gh</item>
+        <item>hk</item>
+        <item>in</item>
+        <item>id</item>
+        <item>ir</item>
+        <item>ke</item>
+        <item>ls</item>
+        <item>mw</item>
+        <item>my</item>
+        <item>mx</item>
+        <item>ma</item>
+        <item>mz</item>
+        <item>mm</item>
+        <item>na</item>
+        <item>ng</item>
+        <item>ph</item>
+        <item>qa</item>
+        <item>ru</item>
+        <item>rw</item>
+        <item>sn</item>
+        <item>sg</item>
+        <item>za</item>
+        <item>kr</item>
+        <item>sz</item>
+        <item>tw</item>
+        <item>tz</item>
+        <item>th</item>
+        <item>tr</item>
+        <item>ug</item>
+        <item>ua</item>
+        <item>ae</item>
+        <item>vn</item>
+        <item>zm</item>
+        <item>zw</item>
+    </string-array>
+    <string-array name="common_password_business_names">
+        <item>מסך הנעילה</item>
+        <item>סיסמת פרטיות</item>
+        <item>מצב ילדים</item>
+        <item>סייר הקבצים</item>
+        <item>נועל היישומים</item>
+        <item>שטח שני</item>
+    </string-array>
+    <string-array name="anr_record_interval_entries">
+        <item>10 שניות</item>
+        <item>20 שניות</item>
+        <item>30 שניות</item>
+        <item>דקה 1</item>
+    </string-array>
+    <string-array name="anr_record_interval_values">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+    </string-array>
+    <string-array name="screen_button_style">
+        <item>סגנון יד שמאל</item>
+        <item>סגנון יד ימין</item>
+    </string-array>
+    <string-array name="alarm_repeat_type">
+        <item>כל יום</item>
+        <item>ימי חול</item>
+        <item>מותאם אישית</item>
+    </string-array>
+    <string-array name="alarm_repeat_type_no_workdays">
+        <item>כל יום</item>
+        <item>ימי חול</item>
+        <item>מותאם אישית</item>
+    </string-array>
+    <string-array name="privacy_password_function_specfication_names">
+        <item>הודעות</item>
+        <item>תמונות</item>
+        <item>קבצים</item>
+        <item>פתקים</item>
+        <item>מצב ילדים</item>
+    </string-array>
+</resources>

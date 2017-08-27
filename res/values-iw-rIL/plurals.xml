@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_settings_disabled_header_title">
+        <item quantity="other">%s יישומים לא יכולים להציג התראות</item>
+        <item quantity="one">יישום 1 לא יכול להציג התראות</item>
+        <item quantity="two">%s יישומים לא יכולים להציג התראות</item>
+        <item quantity="many">%s יישומים לא יכולים להציג התראות</item>
+    </plurals>
+    <plurals name="status_bar_settings_enabled_header_title">
+        <item quantity="other">%s יישומים יכולים להציג התראות</item>
+        <item quantity="one">יישום 1 יכול להציג התראות</item>
+        <item quantity="two">%s יישומים יכולים להציג התראות</item>
+        <item quantity="many">%s יישומים יכולים להציג התראות</item>
+    </plurals>
+    <plurals name="connected_devices_number">
+        <item quantity="other">%d התקנים</item>
+        <item quantity="one">התקן %d</item>
+        <item quantity="two">%d התקנים</item>
+        <item quantity="many">%d התקנים</item>
+    </plurals>
+    <plurals name="show_pho_countdown">
+        <item quantity="other">הינך נמצא %1$d צעדים לפני כניסה לפרטי הטלפון.</item>
+        <item quantity="one">הינך נמצא צעד %1$d לפני כניסה לפרטי הטלפון.</item>
+        <item quantity="two">הינך נמצא %1$d צעדים לפני כניסה לפרטי הטלפון.</item>
+        <item quantity="many">הינך נמצא %1$d צעדים לפני כניסה לפרטי הטלפון.</item>
+    </plurals>
+    <plurals name="show_cit_countdown">
+        <item quantity="other">הינך נמצא %1$d צעדים לפני כניסה ל-CIT.</item>
+        <item quantity="one">הינך נמצא צעד %1$d לפני כניסה ל-CIT.</item>
+        <item quantity="two">הינך נמצא %1$d צעדים לפני כניסה ל-CIT.</item>
+        <item quantity="many">הינך נמצא %1$d צעדים לפני כניסה ל-CIT.</item>
+    </plurals>
+    <plurals name="show_rep_countdown">
+        <item quantity="other">הינך נמצא %1$d צעדים לפני דיווח על שגיאה.</item>
+        <item quantity="one">הינך נמצא צעד %1$d לפני דיווח על שגיאה.</item>
+        <item quantity="two">הינך נמצא %1$d צעדים לפני דיווח על שגיאה.</item>
+        <item quantity="many">הינך נמצא %1$d צעדים לפני דיווח על שגיאה.</item>
+    </plurals>
+    <plurals name="auto_disable_screenbuttons_enabled_header_title">
+        <item quantity="other">השבת תמיד עבור %d יישומים</item>
+        <item quantity="one">השבת תמיד עבור יישום 1</item>
+        <item quantity="two">השבת תמיד עבור %d יישומים</item>
+        <item quantity="many">השבת תמיד עבור %d יישומים</item>
+    </plurals>
+    <plurals name="auto_disable_screenbuttons_disabled_header_title">
+        <item quantity="other">לעולם אל תשבית עבור %d יישומים</item>
+        <item quantity="one">לעולם אל תשבית עבור יישום 1</item>
+        <item quantity="two">לעולם אל תשבית עבור %d יישומים</item>
+        <item quantity="many">לעולם אל תשבית עבור %d יישומים</item>
+    </plurals>
+</resources>

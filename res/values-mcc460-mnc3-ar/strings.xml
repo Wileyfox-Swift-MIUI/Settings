@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="radioInfo_menu_viewADN">عرض دفتر العناوين UIM</string>
+    <string name="security_settings_summary">تعيين موقعي، فتح الشاشة، قفل بطاقة UIM، وقفل تخزين بيانات الاعتماد</string>
+    <string name="sim_lock_settings">إعدادات قفل بطاقة UIM</string>
+    <string name="sim_lock_settings_category">إعداد قفل بطاقة UIM</string>
+    <string name="sim_lock_settings_title">قفل بطاقة UIM</string>
+    <string name="sim_pin_toggle">قفل بطاقة UIM</string>
+    <string name="sim_pin_change">تغيير رمز UIM PIN</string>
+    <string name="sim_enter_pin">رمز UIM PIN</string>
+    <string name="sim_enable_sim_lock">قفل بطاقة UIM</string>
+    <string name="sim_disable_sim_lock">فتح بطاقة UIM</string>
+    <string name="sim_enter_old">رمز UIM PIN قديم</string>
+    <string name="sim_enter_new">رمز UIM PIN جديد</string>
+    <string name="sim_change_pin">رمز UIM PIN</string>
+    <string name="sim_change_succeeded">تم تغيير رمز UIM PIN بنجاح</string>
+    <string name="sim_lock_failed">"لا يمكن تغيير حالة قفل بطاقة UIM.
+قد يكون رمز PIN غير صحيح."</string>
+    <string name="sim_change_failed_enable_sim_lock">"غير قادر على تغييرUIM PIN.
+تفعيل قفل UIM."</string>
+    <string name="sim_lock_change_not_supported">"غير قادر على تغيير قفل UIM.
+UIM لا تدعمة."</string>
+</resources>

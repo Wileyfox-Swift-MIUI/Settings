@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="radioInfo_menu_viewADN">Vezi agenda UIM</string>
+    <string name="security_settings_summary">Setează locația mea, deblocarea ecranului, blocarea cartelei UIM, blocare stocarea acreditărilor</string>
+    <string name="sim_lock_settings">Setările de blocare cartelă UIM</string>
+    <string name="sim_lock_settings_category">Configurare blocare cartelă UIM</string>
+    <string name="sim_lock_settings_title">Blocarea cartelei UIM</string>
+    <string name="sim_pin_toggle">Blocare cartelă UIM</string>
+    <string name="sim_pin_change">Schimbare PIN UIM</string>
+    <string name="sim_enter_pin">UIM PIN</string>
+    <string name="sim_enable_sim_lock">Blocare cartelă UIM</string>
+    <string name="sim_disable_sim_lock">Deblocare cartelă UIM</string>
+    <string name="sim_enter_old">Vechiul PIN al UIM</string>
+    <string name="sim_enter_new">Noul PIN UIM</string>
+    <string name="sim_change_pin">UIM PIN</string>
+    <string name="sim_change_succeeded">UIM PIN schimbat cu succes</string>
+    <string name="sim_lock_failed">"Nu se poate schimba locaţia cartelei UIM.
+Posibil incorect codul PIN."</string>
+    <string name="sim_change_failed_enable_sim_lock">"Imposibil de schimbat UIM PIN. 
+ Activează blocare UIM."</string>
+    <string name="sim_lock_change_not_supported">"Imposibil de schimbat UIM PIN. 
+ Nu e acceptat de UIM."</string>
+</resources>

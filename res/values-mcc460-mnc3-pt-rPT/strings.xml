@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="radioInfo_menu_viewADN">Ver agenda do UIM</string>
+    <string name="security_settings_summary">Definir a Minha Localização, desbloqueio de ecrã, bloqueio do cartão UIM e bloqueio de armazenamento de credenciais</string>
+    <string name="sim_lock_settings">Definições de bloqueio do cartão UIM</string>
+    <string name="sim_lock_settings_category">Configurar bloqueio cartão UIM</string>
+    <string name="sim_lock_settings_title">Bloqueio do cartão UIM</string>
+    <string name="sim_pin_toggle">Bloquear cartão UIM</string>
+    <string name="sim_pin_change">Alterar PIN do UIM</string>
+    <string name="sim_enter_pin">PIN do UIM</string>
+    <string name="sim_enable_sim_lock">Bloquear cartão UIM</string>
+    <string name="sim_disable_sim_lock">Desbloquear cartão UIM</string>
+    <string name="sim_enter_old">PIN antigo do UIM</string>
+    <string name="sim_enter_new">Novo PIN do UIM</string>
+    <string name="sim_change_pin">PIN do UIM</string>
+    <string name="sim_change_succeeded">PIN do UIM alterado com sucesso</string>
+    <string name="sim_lock_failed">"Não foi possível alterar o estado de bloqueio do cartão UIM.
+Possivelmente o PIN está incorrecto."</string>
+    <string name="sim_change_failed_enable_sim_lock">"Não foi possível alterar o PIN do UIM.
+Primeiro, active o Bloqueio do cartão UIM."</string>
+    <string name="sim_lock_change_not_supported">"Não foi possível alterar bloqueio do UIM.
+ O UIM não suporta bloqueio."</string>
+</resources>

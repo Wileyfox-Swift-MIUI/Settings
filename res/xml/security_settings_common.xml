@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/fingerprint_first_open_screen_password_tittle" android:key="fingerprint_first_open_screen_password">
+        <PreferenceScreen android:title="@string/add_fingerprint_text" android:key="add_or_manage_fingerprint" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/security_password_category_name" android:key="security_second_category">
+        <PreferenceScreen android:persistent="false" android:title="@string/secure_keyguard_business_title" android:key="unlock_set_or_change" android:summary="@string/password_turned_off_text" />
+        <PreferenceScreen android:persistent="false" android:title="@string/privacy_password_title" android:key="privacy_password" android:summary="@string/password_turned_off_text" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/security_keyguard_category_name" android:key="security_category">
+        <PreferenceScreen android:title="@string/keyguard_shortcut_title" android:key="keyguard_shortcut_settings" android:summary="@string/keyguard_shortcut_summary" />
+        <ListPreference android:persistent="false" android:entries="@array/screen_timeout_entries" android:title="@string/screen_timeout" android:key="screen_timeout" android:summary="@string/screen_timeout_summary" android:entryValues="@array/screen_timeout_values" />
+        <CheckBoxPreference android:persistent="false" android:title="@string/lockpattern_settings_enable_power_button_instantly_locks" android:key="power_button_instantly_locks" />
+        <CheckBoxPreference android:persistent="false" android:title="@string/wakeup_for_keyguard_notification_title" android:key="wakeup_for_keyguard_notification" />
+        <CheckBoxPreference android:title="@string/pref_volume_wake_title" android:key="pref_volume_wake" android:summary="@string/pref_volume_wake_summary" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/pref_volume_launch_camera_title" android:key="pref_volume_launch_camera" android:summary="@string/pref_volume_launch_camera_summary" />
+        <PreferenceScreen android:title="@string/keyguard_advance_setting_title" android:key="keyguard_advance_setting" />
+    </PreferenceCategory>
+</PreferenceScreen>

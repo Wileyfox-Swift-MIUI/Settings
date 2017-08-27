@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="dolby_default_bassboost">1</integer>
+    <integer name="dolby_default_roomsize">1</integer>
+</resources>

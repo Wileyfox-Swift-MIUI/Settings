@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.setupwizardlib.SetupWizardLayout android:id="@id/setup_wizard_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/SuwContentFrame">
+        <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/storage_wizard_sd_png" style="@style/StorageImageStyle1" />
+        <TextView android:gravity="center_horizontal" android:id="@id/storage_wizard_body" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/StorageTextStyle1" />
+        <TextView android:gravity="center_horizontal" android:id="@id/storage_wizard_second_body" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/StorageTextStyle2" />
+        <TextView android:id="@id/storage_wizard_third_body" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/StorageTextStyle2" />
+    </LinearLayout>
+</com.android.setupwizardlib.SetupWizardLayout>

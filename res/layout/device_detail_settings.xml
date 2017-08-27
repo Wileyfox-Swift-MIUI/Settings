@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scrollview" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/scroll_layout" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/remind_update_layout" android:background="@drawable/device_update_layout_bg" android:layout_width="fill_parent" android:layout_height="61.299988dip">
+                <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@id/update_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="23.0dip" android:text="@string/device_miui_version_update" android:maxLines="1" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:fontFamily="miui-light" />
+                <ImageView android:id="@id/update_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="23.0dip" android:src="@drawable/APKTOOL_DUMMY_8a" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@id/update_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:maxLines="1" android:layout_toLeftOf="@id/update_arrow" android:layout_centerVertical="true" android:fontFamily="miui-light" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/screenshot_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:id="@id/device_top_pic" style="@style/DeviceDisplayImage" />
+                <LinearLayout android:orientation="vertical" android:id="@id/rank_list_layout" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="6.5999756dip">
+                    <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:gravity="center_vertical" android:id="@id/rank_title" android:layout_width="fill_parent" android:layout_height="43.0dip" android:layout_marginLeft="27.0dip" android:text="@string/rank_title" android:maxLines="1" android:layout_weight="1.0" android:fontFamily="miui-light" />
+                    <View android:background="#ffd3d3d3" android:layout_width="fill_parent" android:layout_height="0.33000004dip" android:layout_marginLeft="27.0dip" />
+                    <ListView android:id="@id/rank_listview" android:background="#ffffffff" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="27.0dip" android:divider="@null" />
+                    <View android:background="#ffd3d3d3" android:layout_width="fill_parent" android:layout_height="0.33000004dip" />
+                </LinearLayout>
+                <View android:background="#ffd3d3d3" android:layout_width="fill_parent" android:layout_height="0.33000004dip" />
+                <com.android.settings.widget.NoScrollGridView android:id="@id/description_grid" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:numColumns="3" />
+                <TextView android:textAppearance="@miui:style/TextAppearance.PreferenceList" android:textSize="12.0sp" android:textColor="#ff00aeff" android:gravity="center" android:id="@id/complete_parameters" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="52.0dip" android:text="@string/complete_parameters" android:maxLines="1" android:fontFamily="miui-light" />
+                <View android:background="#fff8f8f8" android:layout_width="fill_parent" android:layout_height="6.5999756dip" />
+                <LinearLayout android:orientation="vertical" android:id="@id/preference_layout" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <View android:background="#fff8f8f8" android:layout_width="fill_parent" android:layout_height="6.5999756dip" />
+                <FrameLayout android:id="@id/layout_title_parent" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textAppearance="@miui:style/TextAppearance.PreferenceList" android:textSize="14.0sp" android:gravity="center" android:id="@id/device_display_layout_title" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:text="@string/device_display_layout_title" android:maxLines="1" android:fontFamily="miui-light" />
+                </FrameLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/device_display_layout" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <FrameLayout android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="@miui:style/TextAppearance.PreferenceList" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="bottom" android:id="@id/about_phone_enter_xiaomi_net" android:background="@drawable/APKTOOL_DUMMY_4a" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="23.0dip" android:text="@string/about_phone_enter_xiaomi_net" android:fontFamily="miui-light" />
+            </FrameLayout>
+            <View android:background="#fff8f8f8" android:layout_width="fill_parent" android:layout_height="6.5999756dip" />
+            <LinearLayout android:orientation="vertical" android:background="@android:color/white" android:paddingTop="16.599976dip" android:paddingBottom="40.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="@miui:style/TextAppearance.PreferenceList" android:gravity="center" android:id="@id/recommend_item_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="@string/recommend_item_title" android:fontFamily="miui-light" />
+                <Space android:layout_width="fill_parent" android:layout_height="40.0dip" />
+                <LinearLayout android:orientation="horizontal" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textColor="#ff000000" android:id="@id/recommend_item_1" android:text="@string/recommend_item_1" android:drawableTop="@drawable/recommend_item_1" android:fontFamily="miui-light" style="@style/RecommendItem" />
+                    <TextView android:textColor="#ff000000" android:id="@id/recommend_item_2" android:text="@string/recommend_item_2" android:drawableTop="@drawable/recommend_item_2" android:fontFamily="miui-light" style="@style/RecommendItem" />
+                    <TextView android:textColor="#ff000000" android:id="@id/recommend_item_3" android:text="@string/recommend_item_3" android:drawableTop="@drawable/recommend_item_3" android:fontFamily="miui-light" style="@style/RecommendItem" />
+                    <TextView android:textColor="#ff000000" android:id="@id/recommend_item_4" android:text="@string/recommend_item_4" android:drawableTop="@drawable/recommend_item_4" android:fontFamily="miui-light" style="@style/RecommendItem" />
+                </LinearLayout>
+                <TextView android:textAppearance="@miui:style/TextAppearance.List.Secondary" android:textSize="12.0sp" android:textColor="#ff00aeff" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/device_detail_settings_view_more" android:paddingTop="40.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/device_miui_more" android:maxLines="1" android:fontFamily="miui-light" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <View android:background="#fff8f8f8" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

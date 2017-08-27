@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="radioInfo_menu_viewADN">Prikaži UIM imenik</string>
+    <string name="security_settings_summary">Nastavi Mojo lokacijo, odklep zaslona, zaklep UIM kartice, zaklep shrambe poverilnic</string>
+    <string name="sim_lock_settings">Nastavitve zakl. UIM kartice</string>
+    <string name="sim_lock_settings_category">Nastavite zaklep UIM kartice</string>
+    <string name="sim_lock_settings_title">Zaklep UIM kartice</string>
+    <string name="sim_pin_toggle">Zakleni UIM kartico</string>
+    <string name="sim_pin_change">Zamenjaj PIN za UIM</string>
+    <string name="sim_enter_pin">UIM PIN</string>
+    <string name="sim_enable_sim_lock">Zakleni UIM kartico</string>
+    <string name="sim_disable_sim_lock">Odkleni UIM kartico</string>
+    <string name="sim_enter_old">Stari UIM PIN</string>
+    <string name="sim_enter_new">Novi UIM PIN</string>
+    <string name="sim_change_pin">UIM PIN</string>
+    <string name="sim_change_succeeded">UIM PIN uspešno zamenjan</string>
+    <string name="sim_lock_failed">"Ne morem spremeniti stanje zaklepa UIM kartice.
+Morda je PIN napačen."</string>
+    <string name="sim_change_failed_enable_sim_lock">"Ne morem spremeniti UIM PIN.
+ Dovoli UIM LOCK."</string>
+    <string name="sim_lock_change_not_supported">"Ne morem spremeniti UIM lock.
+ UIM ne podpira tega."</string>
+</resources>

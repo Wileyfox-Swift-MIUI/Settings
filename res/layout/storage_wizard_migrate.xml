@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.setupwizardlib.SetupWizardLayout android:id="@id/setup_wizard_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/SuwContentFrame">
+        <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/storage_wizard_sd_png" style="@style/StorageImageStyle2" />
+        <TextView android:id="@id/storage_wizard_body" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/StorageTextStyle1" />
+        <TextView android:id="@id/storage_wizard_second_body" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/StorageTextStyle2" />
+        <RadioButton android:textAppearance="@android:style/TextAppearance.Material.Subhead" android:textSize="15.0sp" android:textColor="?android:textColorPrimary" android:id="@id/storage_wizard_migrate_now" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/suw_description_margin_top" android:text="@string/storage_wizard_migrate_now" android:lineSpacingExtra="@dimen/suw_description_line_spacing_extra" />
+        <RadioButton android:textAppearance="@android:style/TextAppearance.Material.Subhead" android:textSize="15.0sp" android:textColor="?android:textColorPrimary" android:id="@id/storage_wizard_migrate_later" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/storage_wizard_migrate_later" android:lineSpacingExtra="@dimen/suw_description_line_spacing_extra" />
+    </LinearLayout>
+</com.android.setupwizardlib.SetupWizardLayout>

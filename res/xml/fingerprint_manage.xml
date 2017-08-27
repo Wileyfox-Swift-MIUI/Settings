@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/fingerprint_first_open_screen_password_tittle" android:key="fingerprint_list" />
+    <PreferenceCategory android:title="@string/apply_fingerprint_to_category_title" android:key="apply_fingerprint_to" />
+</PreferenceScreen>

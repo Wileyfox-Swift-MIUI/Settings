@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="radioInfo_menu_viewADN">"USIM kartadagi mazillar kitobini ko'rsatish"</string>
+    <string name="security_settings_summary">"\"Joylashuv\" funksiyasi, ekran qulfi, USIM karta qulfi, va hisobga olish ma'lumotlar qulfini sozlash"</string>
+    <string name="sim_lock_settings">USIM karta qulflash sozlamalari</string>
+    <string name="sim_lock_settings_category">USIM karta qulfi</string>
+    <string name="sim_lock_settings_title">USIM karta</string>
+    <string name="sim_pin_toggle">"PIN kod so'rovi"</string>
+    <string name="sim_pin_change">"USIM PIN kodni o'zgartirish"</string>
+    <string name="sim_enter_pin">USIM karta PIN kodi</string>
+    <string name="sim_enable_sim_lock">USIM kartani qulflash</string>
+    <string name="sim_disable_sim_lock">USIM kartani qulfdan ochish</string>
+    <string name="sim_enter_old">Eski USIM karta PIN kodi</string>
+    <string name="sim_enter_new">Yangi USIM karta PIN kodi</string>
+    <string name="sim_change_pin">USIM karta PIN kodi</string>
+    <string name="sim_change_succeeded">"USIM karta PIN kodi muvaffaqiyatli o'zgartirildi"</string>
+    <string name="sim_lock_failed">"USIM qulflangan holzatini o'zgartirib bo'lmadi.
+Ehtimol, xato PIN kod."</string>
+    <string name="sim_change_failed_enable_sim_lock">"USIM PIN kodni o'zgartirib bo'lmadi.
+ USIM karta qulfini yoqing."</string>
+    <string name="sim_lock_change_not_supported">"USIM karta qulfini o'zgartirib bo'lmaydi."</string>
+</resources>

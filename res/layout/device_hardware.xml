@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@miui:drawable/window_bg_secondary_light" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="21.699982dip" android:layout_marginRight="21.699982dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Space android:layout_width="fill_parent" android:layout_height="25.0dip" />
+    <RelativeLayout android:id="@id/action_bar_layout" android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <ImageView android:id="@id/actionbar_left_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:src="@miui:drawable/action_bar_back_light" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/DeviceDisplayImage" />
+        <ImageView android:id="@id/actionbar_right_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:src="@drawable/APKTOOL_DUMMY_1f6" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/DeviceDisplayImage" />
+        <TextView android:textSize="14.0sp" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/actionbar_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/device_actionbar_title" android:maxLines="1" android:layout_weight="1.0" android:layout_centerInParent="true" android:fontFamily="miui-light" />
+    </RelativeLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/display_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="38.0dip">
+            <View android:id="@id/bottom_space" android:layout_width="fill_parent" android:layout_height="48.0dip" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

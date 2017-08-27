@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="32.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="21.699982dip" android:layout_marginRight="21.699982dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="0.30000007dip" android:layout_alignParentBottom="true" android:alpha="0.15" />
+    <TextView android:textAppearance="@miui:style/TextAppearance.List.Secondary" android:textSize="12.0sp" android:id="@id/device_harware_summary" android:paddingTop="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="96.0dip" android:layout_marginBottom="39.0dip" android:text="@string/device_miui_more" android:lineSpacingExtra="10.699982dip" android:fontFamily="miui-light" />
+    <TextView android:textAppearance="@miui:style/TextAppearance.List.Secondary" android:textSize="16.0sp" android:id="@id/device_harware_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="39.0dip" android:text="@string/device_miui_version" android:maxLines="10" android:layout_alignParentLeft="true" android:fontFamily="miui-light" />
+</RelativeLayout>

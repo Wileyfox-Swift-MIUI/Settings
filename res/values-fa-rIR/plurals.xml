@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_settings_disabled_header_title">
+        <item quantity="other">%s برنامه اعلان‌ها را نمایش نمی‌دهند</item>
+        <item quantity="one">۱ برنامه اعلان‌ها را نمایش نمی‌دهد</item>
+    </plurals>
+    <plurals name="status_bar_settings_enabled_header_title">
+        <item quantity="other">%s برنامه می‌توانند اعلان‌ها را نمایش دهند</item>
+        <item quantity="one">۱ برنامه می‌تواند اعلان‌ها را نمایش دهد</item>
+    </plurals>
+    <plurals name="connected_devices_number">
+        <item quantity="other">%d دستگاه</item>
+        <item quantity="one">%d دستگاه</item>
+    </plurals>
+    <plurals name="show_pho_countdown">
+        <item quantity="other">شما %1$d قدم با وارد کردن اطلاعات گوشی فاصله دارید.</item>
+        <item quantity="one">شما %1$d قدم با وارد کردن اطلاعات گوشی فاصله دارید.</item>
+    </plurals>
+    <plurals name="show_cit_countdown">
+        <item quantity="other">شما %1$d قدم با وارد کردن CIT فاصله دارید.</item>
+        <item quantity="one">شما %1$d قدم با وارد کردن CIT فاصله دارید.</item>
+    </plurals>
+    <plurals name="show_rep_countdown">
+        <item quantity="other">شما %1$d قدم تا گزارش اشکال فاصله دارید.</item>
+        <item quantity="one">شما %1$d قدم تا گزارش اشکال فاصله دارید.</item>
+    </plurals>
+    <plurals name="auto_disable_screenbuttons_enabled_header_title">
+        <item quantity="other">همیشه برای %d برنامه غیرفعال شود</item>
+        <item quantity="one">همیشه برای ۱ برنامه غیرفعال شود</item>
+    </plurals>
+    <plurals name="auto_disable_screenbuttons_disabled_header_title">
+        <item quantity="other">هرگز برای %d برنامه غیرفعال نشود</item>
+        <item quantity="one">هرگز برای ۱ برنامه غیرفعال نشود</item>
+    </plurals>
+</resources>

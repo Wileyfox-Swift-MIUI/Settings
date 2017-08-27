@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="radioInfo_menu_viewADN">مشاهده دفترچه نشانی USIM</string>
+    <string name="security_settings_summary">تنظیم موقعیت مکانی من، قفل صفحه، قفل USIM کارت، قفل ذخیره اطلاعات کاربری</string>
+    <string name="sim_lock_settings">تنظیمات قفل USIM کارت</string>
+    <string name="sim_lock_settings_category">راه‌اندازی قفل USIM کارت</string>
+    <string name="sim_lock_settings_title">قفل USIM کارت</string>
+    <string name="sim_pin_toggle">قفل کردن USIM کارت</string>
+    <string name="sim_pin_change">تغییر کد PIN USIM</string>
+    <string name="sim_enter_pin">کد USIM PIN</string>
+    <string name="sim_enable_sim_lock">قفل کردن USIM کارت</string>
+    <string name="sim_disable_sim_lock">باز کردن قفل USIM کارت</string>
+    <string name="sim_enter_old">کدPIN USIM پیشین</string>
+    <string name="sim_enter_new">کد PIN USIM جدید</string>
+    <string name="sim_change_pin">کد PIN USIM</string>
+    <string name="sim_change_succeeded">تغییر کد PIN USIM با موفقیت انجام شد</string>
+    <string name="sim_lock_failed">"نمی‌توان حالت قفل USIM کارت را تغییر داد.
+احتمالاً کد PIN نادرست است."</string>
+    <string name="sim_change_failed_enable_sim_lock">"نمی‌توان گذرواژه PIN USIMs کارت را تغییر داد.
+ قفل USIM را فعال کنید."</string>
+    <string name="sim_lock_change_not_supported">"قفل USIM کارت را نمی‌توان تغییر داد.
+USIM از آن پشتیبانی نمی‌کند."</string>
+</resources>

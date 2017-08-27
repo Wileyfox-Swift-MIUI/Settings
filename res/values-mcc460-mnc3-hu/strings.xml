@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="radioInfo_menu_viewADN">SIM kártya telefonkönyvének megtekintése</string>
+    <string name="security_settings_summary">Saját pozíció beállítása, képernyőzár feloldása, SIM kártya zárolása, hitelesítési adatok tárolójának zárolása</string>
+    <string name="sim_lock_settings">SIM kártya lezárási beállításai</string>
+    <string name="sim_lock_settings_category">SIM kártya zárolásának beállítása</string>
+    <string name="sim_lock_settings_title">SIM kártya zárolása</string>
+    <string name="sim_pin_toggle">SIM kártya lezárása</string>
+    <string name="sim_pin_change">SIM kártya PIN kódjának módosítása</string>
+    <string name="sim_enter_pin">SIM kártya PIN kódja</string>
+    <string name="sim_enable_sim_lock">SIM kártya lezárása</string>
+    <string name="sim_disable_sim_lock">SIM kártya feloldása</string>
+    <string name="sim_enter_old">SIM kártya régi PIN kódja</string>
+    <string name="sim_enter_new">Új PIN kód a SIM kártyához</string>
+    <string name="sim_change_pin">SIM kártya PIN kódja</string>
+    <string name="sim_change_succeeded">A SIM kártya PIN kódja sikeresen módosításra került</string>
+    <string name="sim_lock_failed">Nem lehet megváltoztatni a SIM kártya zárolási állapotát. Lehet, hogy hibás a PIN kód.</string>
+    <string name="sim_change_failed_enable_sim_lock">Nem lehet megváltoztatni a SIM/RUIM PIN kódot. SIM/RUIM Zár engedélyezése.</string>
+    <string name="sim_lock_change_not_supported">Nem lehet megváltoztatni a SIM/RUIM Zárat. SIM nem támogatja.</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="radioInfo_menu_viewADN">USIM સરનામાં પુસ્તિકા જુઓ</string>
+    <string name="security_settings_summary">મારું સ્થાન, સ્ક્રીન અનલૉક, USIM કાર્ડ લૉક, ઓળખપત્ર સંગ્રહ લૉક સેટ કરો</string>
+    <string name="sim_lock_settings">USIM કાર્ડ લૉક સેટિંગ્સ</string>
+    <string name="sim_lock_settings_category">USIM કાર્ડ લૉક સેટ કરો</string>
+    <string name="sim_lock_settings_title">USIM કાર્ડ લૉક</string>
+    <string name="sim_pin_toggle">USIM કાર્ડ લૉક કરો</string>
+    <string name="sim_pin_change">USIM પિન બદલો</string>
+    <string name="sim_enter_pin">USIM PIN</string>
+    <string name="sim_enable_sim_lock">USIM કાર્ડ લૉક કરો</string>
+    <string name="sim_disable_sim_lock">USIM કાર્ડ અનલૉક કરો</string>
+    <string name="sim_enter_old">જૂનો USIM PIN</string>
+    <string name="sim_enter_new">નવો USIM PIN</string>
+    <string name="sim_change_pin">USIM PIN</string>
+    <string name="sim_change_succeeded">USIM PIN સફળતાપૂર્વક બદલવામાં આવ્યો</string>
+    <string name="sim_lock_failed">"USIM કાર્ડ લૉક સ્થિતિ બદલી શકાતી નથી.
+સંભવિત રીતે ખોટો PIN."</string>
+    <string name="sim_change_failed_enable_sim_lock">"USIM PIN બદલવામાં અસમર્થ.
+ UIM LOCK સક્ષમ કરો."</string>
+    <string name="sim_lock_change_not_supported">"USIM લૉક બદલવામાં અસમર્થ.
+ UIM તેનું સમર્થન કરતું નથી."</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/crypt_keeper_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/encroid" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/encroid_progress" />
+    <TextView android:textSize="@dimen/crypt_keeper_title_text_size" android:id="@id/title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="@dimen/crypt_keeper_view_text_size" android:id="@id/status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/crypt_keeper_view_top_margin" android:layout_marginBottom="@dimen/crypt_keeper_view_bottom_margin" android:text="@string/security_encryption_progress_dialog_open" />
+    <miui.widget.ProgressBar android:id="@id/progress_bar" android:layout_width="@dimen/crypt_keeper_progress_bar_width" android:layout_height="@dimen/crypt_keeper_progress_bar_height" android:progressDrawable="@drawable/crypt_keeper_progress_style" style="?android:attr/progressBarStyleHorizontal" />
+    <Button android:id="@id/factory_reset" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/master_clear_button_text" />
+</LinearLayout>

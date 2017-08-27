@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="radioInfo_menu_viewADN">Преглед на адресната книга в UIM картата</string>
+    <string name="security_settings_summary">Задаване на местоположението, отключване на екрана, заключване на UIM карта, заключване на хранилището с идентификационни данни</string>
+    <string name="sim_lock_settings">Настройки за заключването на UIM картата</string>
+    <string name="sim_lock_settings_category">Настройка на заключването на UIM картата</string>
+    <string name="sim_lock_settings_title">Заключване на UIM картата</string>
+    <string name="sim_pin_toggle">Заключи UIM картата</string>
+    <string name="sim_pin_change">Промяна на PIN за UIM карта</string>
+    <string name="sim_enter_pin">Активиране/деактивиране на PIN за UIM карта</string>
+    <string name="sim_enable_sim_lock">Заключи UIM картата</string>
+    <string name="sim_disable_sim_lock">Отключи UIM картата</string>
+    <string name="sim_enter_old">Стар PIN на UIM</string>
+    <string name="sim_enter_new">Нов PIN на UIM</string>
+    <string name="sim_change_pin">Активиране/деактивиране на PIN за UIM карта</string>
+    <string name="sim_change_succeeded">PIN кодът за UIM картата бе променен успешно</string>
+    <string name="sim_lock_failed">"Промяната на заключването на UIM е невъзможна.
+Вероятно неправилен PIN."</string>
+    <string name="sim_change_failed_enable_sim_lock">"Не може да се промени PIN на UIM.
+ Активирайте заключването на USIM."</string>
+    <string name="sim_lock_change_not_supported">"Не може да се промени заключването на UIM.
+ UIM не го поддържа."</string>
+</resources>

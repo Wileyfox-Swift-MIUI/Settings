@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.299988sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/rank_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:fontFamily="miui-light" />
+    <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:id="@id/rank_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/rank_number" android:layout_centerVertical="true" android:fontFamily="miui-light" />
+    <ImageView android:id="@id/arrow_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="23.0dip" android:src="@miui:drawable/arrow_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <TextView android:textSize="12.0sp" android:textColor="#72000000" android:id="@id/rank_value_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_toLeftOf="@id/arrow_right" android:layout_centerVertical="true" android:fontFamily="miui-light" />
+    <View android:id="@id/parting_line" android:background="#ffd3d3d3" android:layout_width="fill_parent" android:layout_height="0.33000004dip" android:layout_marginLeft="43.299988dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

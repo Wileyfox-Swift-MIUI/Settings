@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="radioInfo_menu_viewADN">[νîéŵ ÛŠÎḾ åððŕéšš ɓööķ one two three]</string>
+    <string name="security_settings_summary">[Šéţ Ḿý Ļöçåţîöñ, šçŕééñ ûñļöçķ, ÛŠÎḾ çåŕð ļöçķ, çŕéðéñţîåļ šţöŕåĝé ļöçķ one two three four five six seven eight]</string>
+    <string name="sim_lock_settings">[ÛŠÎḾ çåŕð ļöçķ šéţţîñĝš one two three]</string>
+    <string name="sim_lock_settings_category">[Šéţ ûþ ÛŠÎḾ çåŕð ļöçķ one two three]</string>
+    <string name="sim_lock_settings_title">[ÛŠÎḾ çåŕð ļöçķ one two three]</string>
+    <string name="sim_pin_toggle">[Ļöçķ ÛŠÎḾ çåŕð one two three]</string>
+    <string name="sim_pin_change">[Çĥåñĝé ÛŠÎḾ ÞÎÑ one two three]</string>
+    <string name="sim_enter_pin">[ÛŠÎḾ ÞÎÑ one two]</string>
+    <string name="sim_enable_sim_lock">[Ļöçķ ÛŠÎḾ çåŕð one two three]</string>
+    <string name="sim_disable_sim_lock">[Ûñļöçķ ÛŠÎḾ çåŕð one two three]</string>
+    <string name="sim_enter_old">[Öļð ÛŠÎḾ ÞÎÑ one two]</string>
+    <string name="sim_enter_new">[Ñéŵ ÛŠÎḾ ÞÎÑ one two]</string>
+    <string name="sim_change_pin">[ÛŠÎḾ ÞÎÑ one two]</string>
+    <string name="sim_change_succeeded">[ÛŠÎḾ ÞÎÑ çĥåñĝéð šûççéššƒûļļý one two three four]</string>
+    <string name="sim_lock_failed">"[Çåñ'ţ çĥåñĝé ÛŠÎḾ çåŕð ļöçķ šţåţé.
+Þöššîɓļý îñçöŕŕéçţ ÞÎÑ. one two three four five six seven]"</string>
+    <string name="sim_change_failed_enable_sim_lock">"[Ûñåɓļé ţö Çĥåñĝé ÛŠÎḾ ÞÎÑ.
+ Éñåɓļé ÛŠÎḾ ĻÖÇĶ. one two three four five]"</string>
+    <string name="sim_lock_change_not_supported">"[Ûñåɓļé ţö Çĥåñĝé ÛŠÎḾ Ļöçķ.
+ ÛŠÎḾ ðöéšñ'ţ šûþþöŕţ îţ. one two three four five six]"</string>
+</resources>

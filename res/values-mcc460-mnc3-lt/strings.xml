@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="radioInfo_menu_viewADN">Peržiūrėti UIM adresų knygelę</string>
+    <string name="security_settings_summary">Mano vietos nustatymas, ekrano atrakinimas, UIM užrakinimas, identifikatorių saugyklos užrakinimas</string>
+    <string name="sim_lock_settings">UIM kortelės užrakinimo nustatymai</string>
+    <string name="sim_lock_settings_category">Nustatyti UIM kortelės užraktą</string>
+    <string name="sim_lock_settings_title">Užrakinti UIM kortelę</string>
+    <string name="sim_pin_toggle">Užrakinti UIM kortelę</string>
+    <string name="sim_pin_change">Pakeisti UIM kortelės PIN</string>
+    <string name="sim_enter_pin">UIM PIN</string>
+    <string name="sim_enable_sim_lock">Užrakinti UIM kortelę</string>
+    <string name="sim_disable_sim_lock">Atrakinti UIM kortelę</string>
+    <string name="sim_enter_old">Senas UIM PIN</string>
+    <string name="sim_enter_new">Naujas UIM PIN</string>
+    <string name="sim_change_pin">UIM PIN</string>
+    <string name="sim_change_succeeded">Sėkmingai pakeistas UIM PIN</string>
+    <string name="sim_lock_failed">"Nepavyksta pakeisti UIM kortelės užrakinimo.
+Galimai neteisingas PIN."</string>
+    <string name="sim_change_failed_enable_sim_lock">"Nepavyksta pakeisti UIM PIN.
+Įjunkite UIM Užrakinimą."</string>
+    <string name="sim_lock_change_not_supported">"Nepavyksta pakeisti UIM PIN Užrakto.
+UIM to nepalaiko."</string>
+</resources>

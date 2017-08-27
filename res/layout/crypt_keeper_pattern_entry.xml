@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:background="@color/crypt_keeper_background_color" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/crypt_keeper_status" />
+    <com.android.settings.MiuiKeyguardLockPatternView android:layout_gravity="center_horizontal" android:id="@id/lockPattern" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/miui_pattern_lock_pattern_view_horizontal_margin" android:layout_marginRight="@dimen/miui_pattern_lock_pattern_view_horizontal_margin" android:layout_marginBottom="4.0dip" />
+    <Button android:textSize="@dimen/pattern_unlock_screen_emergency_text_size" android:textColor="@color/pattern_unlock_screen_emergency_text_color" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/emergencyCallButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/pattern_unlock_screen_bottom_margin" android:text="@string/cryptkeeper_emergency_call" style="?android:attr/buttonBarButtonStyle" />
+</LinearLayout>

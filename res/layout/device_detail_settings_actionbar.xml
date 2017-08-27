@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/state_bar_layout" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="25.0dip">
+        <TextView android:textSize="14.0sp" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/actionbar_title0" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLines="1" android:layout_weight="1.0" android:layout_centerInParent="true" android:fontFamily="miui-light" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/action_bar_layout" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <ImageView android:id="@id/actionbar_left_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/APKTOOL_DUMMY_2" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/DeviceDisplayImage" />
+        <ImageView android:id="@id/actionbar_right_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/APKTOOL_DUMMY_1f6" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/DeviceDisplayImage" />
+        <TextView android:textSize="14.0sp" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/actionbar_title1" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLines="1" android:layout_weight="1.0" android:layout_centerInParent="true" android:fontFamily="miui-light" />
+        <TextView android:textSize="14.0sp" android:gravity="center" android:id="@id/actionbar_title2" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLines="1" android:layout_weight="1.0" android:layout_centerInParent="true" android:fontFamily="miui-light" />
+    </RelativeLayout>
+</LinearLayout>
